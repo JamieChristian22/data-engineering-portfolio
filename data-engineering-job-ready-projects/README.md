@@ -1,4 +1,4 @@
-# Data Engineering Portfolio — 4 Job‑Ready Projects (No Placeholders)
+# Data Engineering Portfolio — 4 Job‑Ready Projects
 
 This package contains **4 complete, runnable data engineering projects** designed to demonstrate end‑to‑end skills:
 - ingestion (batch + streaming), transformation (SQL/dbt), orchestration (Airflow), lakehouse patterns (Delta/Iceberg style), data quality (Great Expectations), CI, and reproducible environments (Docker).
