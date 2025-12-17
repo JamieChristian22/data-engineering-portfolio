@@ -1,0 +1,122 @@
+{
+  "conversion_by_device": [
+    {
+      "device": "desktop",
+      "sessions": 72,
+      "purchases": 41,
+      "conversion_rate": 0.5694
+    },
+    {
+      "device": "mobile",
+      "sessions": 91,
+      "purchases": 48,
+      "conversion_rate": 0.5275
+    },
+    {
+      "device": "tablet",
+      "sessions": 18,
+      "purchases": 6,
+      "conversion_rate": 0.3333
+    }
+  ],
+  "conversion_by_referrer": [
+    {
+      "referrer": "email",
+      "sessions": 15,
+      "purchases": 11,
+      "conversion_rate": 0.7333
+    },
+    {
+      "referrer": "facebook",
+      "sessions": 28,
+      "purchases": 17,
+      "conversion_rate": 0.6071
+    },
+    {
+      "referrer": "tiktok",
+      "sessions": 14,
+      "purchases": 8,
+      "conversion_rate": 0.5714
+    },
+    {
+      "referrer": "google",
+      "sessions": 65,
+      "purchases": 34,
+      "conversion_rate": 0.5231
+    },
+    {
+      "referrer": "affiliate",
+      "sessions": 8,
+      "purchases": 4,
+      "conversion_rate": 0.5
+    },
+    {
+      "referrer": "direct",
+      "sessions": 51,
+      "purchases": 21,
+      "conversion_rate": 0.4118
+    }
+  ],
+  "score_deciles": [
+    {
+      "decile": 1,
+      "sessions": 19,
+      "avg_score": 0.0185,
+      "conversion_rate": 0.0
+    },
+    {
+      "decile": 2,
+      "sessions": 18,
+      "avg_score": 0.0265,
+      "conversion_rate": 0.0
+    },
+    {
+      "decile": 3,
+      "sessions": 18,
+      "avg_score": 0.0341,
+      "conversion_rate": 0.0
+    },
+    {
+      "decile": 4,
+      "sessions": 18,
+      "avg_score": 0.0429,
+      "conversion_rate": 0.0
+    },
+    {
+      "decile": 5,
+      "sessions": 18,
+      "avg_score": 0.2966,
+      "conversion_rate": 0.2778
+    },
+    {
+      "decile": 6,
+      "sessions": 18,
+      "avg_score": 0.9357,
+      "conversion_rate": 1.0
+    },
+    {
+      "decile": 7,
+      "sessions": 18,
+      "avg_score": 0.9559,
+      "conversion_rate": 1.0
+    },
+    {
+      "decile": 8,
+      "sessions": 18,
+      "avg_score": 0.9659,
+      "conversion_rate": 1.0
+    },
+    {
+      "decile": 9,
+      "sessions": 18,
+      "avg_score": 0.9812,
+      "conversion_rate": 1.0
+    },
+    {
+      "decile": 10,
+      "sessions": 18,
+      "avg_score": 0.9999,
+      "conversion_rate": 1.0
+    }
+  ]
+}

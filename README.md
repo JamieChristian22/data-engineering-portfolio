@@ -1,137 +1,47 @@
-# Data Engineering Portfolio
+# AI Data Engineering — 3 Real‑World, Job‑Ready Projects (10/10)
 
-🚀 **Job-ready data engineering portfolio** showcasing real-world pipelines, ETL/ELT workflows, streaming systems, data quality frameworks, and lakehouse architectures.
+This repo contains **three end‑to‑end AI data engineering projects** you can run locally. Each project includes:
+- production-style folder structure
+- repeatable CLI entrypoints
+- synthetic-but-realistic data generation (so it runs out of the box)
+- tests, logging, and clear documentation
+- measurable outputs (databases, reports, metrics)
 
-This repository demonstrates hands-on experience with **Python, SQL, Airflow, dbt, Spark, Kafka, Delta Lake, Docker, Terraform, and cloud-ready data architecture patterns**.
+## Projects
+1. **Project 1 — Event Stream Enrichment + Propensity Scoring**
+   - Simulated clickstream events → feature engineering → train model → enrich events → load to SQLite → analytics queries
 
----
+2. **Project 2 — Support Ticket Knowledge Base + Semantic Search**
+   - Ingest tickets + KB docs → clean + redact PII → build TF‑IDF embeddings → semantic search CLI → evaluation metrics
 
-## 📂 Portfolio Projects
+3. **Project 3 — Data Reliability Monitor (Drift + Anomaly Detection)**
+   - Validate datasets → detect schema breaks, null spikes, distribution drift (KS test), and metric anomalies (IsolationForest) → HTML report
 
-All production-ready projects are located in:
+## How to run
+Each project folder contains its own README with step-by-step commands.
 
-👉 **`/data-engineering-job-ready-projects`**
+> Tip: Create a virtual environment first:
+```bash
+python -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+```
 
-Each project includes:
-- Real datasets (no placeholders)
-- Fully runnable code
-- Clear architecture
-- Dockerized environments
-- Testing / validation
-- Professional documentation
+## Repo layout
+- `project_1_event_enrichment/`
+- `project_2_semantic_support_search/`
+- `project_3_data_reliability_monitor/`
 
----
+## License
+MIT
 
-## 🧩 Projects Overview
 
-### **1️⃣ Batch ETL Pipeline — Airflow + dbt + PostgreSQL**
-📁 `01_batch_etl_dbt_airflow`
-
-**What it shows**
-- End-to-end batch ETL pipeline
-- Raw → Staging → Mart data modeling
-- Orchestration with Apache Airflow
-- Analytics engineering with dbt
-- Data quality tests (not null, unique, accepted values)
-
-**Tech Stack**
-- Python, SQL
-- Apache Airflow
-- dbt
-- PostgreSQL
-- Docker
-
----
-
-### **2️⃣ Real-Time Streaming Pipeline — Kafka + Spark + Delta Lake**
-📁 `02_streaming_kafka_spark_delta`
-
-**What it shows**
-- Real-time clickstream ingestion
-- Kafka event streaming
-- Spark Structured Streaming aggregation
-- Delta Lake storage (lakehouse pattern)
-- Analytical querying with DuckDB
-
-**Tech Stack**
-- Kafka
-- Spark Structured Streaming
-- Delta Lake
-- Python
-- Docker
-
----
-
-### **3️⃣ Data Quality & Observability — Great Expectations**
-📁 `03_data_quality_observability`
-
-**What it shows**
-- Automated data quality checks
-- Schema validation
-- Range, null, uniqueness enforcement
-- Pipeline failure on quality violations
-- JSON validation reports
-
-**Tech Stack**
-- Python
-- Great Expectations
-- Pandas
-- CI-ready structure
-
----
-
-### **4️⃣ Lakehouse Architecture + IaC — DuckDB + Parquet + Terraform**
-📁 `04_lakehouse_iac_aws_style_local`
-
-**What it shows**
-- Bronze / Silver / Gold lakehouse architecture
-- Parquet-based analytics
-- DuckDB for fast local querying
-- AWS-style infrastructure using Terraform
-- Glue / Athena / S3 conceptual mapping
-
-**Tech Stack**
-- DuckDB
-- Parquet
-- Python
-- Terraform (AWS-style IaC)
-
----
-
-## 🧠 Skills Demonstrated
-
-- Data pipeline design (batch & streaming)
-- Analytics engineering (dbt)
-- Orchestration (Airflow)
-- Data quality & observability
-- Lakehouse architectures
-- Cloud-ready infrastructure design
-- SQL & Python for data engineering
-- Dockerized, reproducible systems
-
----
-
-## 📸 What Recruiters Can Verify
-
-Each project provides clear evidence:
-- Successful Airflow DAG runs
-- Passing dbt tests
-- Streaming jobs processing live data
-- Generated parquet / delta tables
-- Data quality validation reports
-
----
-
-## 🛠 How to Use This Repo
-
-1. Clone the repo
-2. Navigate into `data-engineering-job-ready-projects`
-3. Open any project folder
-4. Follow the project-specific README
-
-Each project runs **locally** with minimal setup.
-
----
-
-## 📜 License
-MIT License — free to use, fork, and reference.
+## 10/10 Upgrades Included
+- **Docker + docker-compose** for one-command runs
+- **GitHub Actions CI** (ruff + pytest) per project
+- **Structured logging** (set `LOG_FORMAT=json`)
+- **Data validation helpers** (required columns, non-null, uniqueness)
+- **Project 2 API key auth** (optional via `API_KEY` env var)
+- **Project 2 latency benchmark** (`python -m src.benchmark`)
+- **Project 1 idempotent warehouse loads** (safe re-runs)
+- **Project 3 alerting stubs** (writes alerts JSON; optional Slack webhook)

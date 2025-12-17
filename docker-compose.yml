@@ -1,0 +1,29 @@
+version: "3.9"
+services:
+  p1:
+    build: ./project_1_event_enrichment
+    command: ["bash","-lc","make all"]
+    environment:
+      - LOG_FORMAT=json
+    volumes:
+      - ./project_1_event_enrichment:/app
+
+  p2_api:
+    build: ./project_2_semantic_support_search
+    command: ["bash","-lc","uvicorn src.api:app --host 0.0.0.0 --port 8000"]
+    environment:
+      - LOG_FORMAT=json
+      # Set API_KEY to require auth; otherwise open.
+      # - API_KEY=change_me
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./project_2_semantic_support_search:/app
+
+  p3:
+    build: ./project_3_data_reliability_monitor
+    command: ["bash","-lc","make run"]
+    environment:
+      - LOG_FORMAT=json
+    volumes:
+      - ./project_3_data_reliability_monitor:/app
