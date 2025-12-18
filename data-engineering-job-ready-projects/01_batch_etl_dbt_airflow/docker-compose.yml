@@ -1,0 +1,43 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: de_postgres
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_DB: analytics
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./infra/postgres/init:/docker-entrypoint-initdb.d
+      - pgdata:/var/lib/postgresql/data
+  airflow:
+    image: apache/airflow:2.9.3
+    container_name: de_airflow
+    depends_on:
+      - postgres
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://postgres:postgres@postgres:5432/analytics
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      AIRFLOW__WEBSERVER__EXPOSE_CONFIG: "True"
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./orchestration/airflow/dags:/opt/airflow/dags
+      - ./orchestration/airflow/plugins:/opt/airflow/plugins
+      - ./data:/opt/airflow/data
+    command: bash -c "airflow db migrate && airflow users create --username admin --firstname Admin --lastname User --role Admin --email admin@example.com --password admin && airflow webserver & airflow scheduler"
+  dbt:
+    build:
+      context: ./transform/dbt
+      dockerfile: Dockerfile
+    container_name: de_dbt
+    depends_on:
+      - postgres
+    volumes:
+      - ./transform/dbt:/usr/app/dbt
+    environment:
+      DBT_PROFILES_DIR: /usr/app/dbt
+volumes:
+  pgdata:

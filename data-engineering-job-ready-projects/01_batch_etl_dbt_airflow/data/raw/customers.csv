@@ -1,0 +1,201 @@
+customer_id,created_date,state,city,email_domain
+1,2025-10-21,NC,Chicago,gmail.com
+2,2025-10-05,FL,Dallas,gmail.com
+3,2025-10-24,TX,New York,yahoo.com
+4,2025-10-03,NY,Chicago,proton.me
+5,2025-10-05,NC,New York,proton.me
+6,2025-10-04,FL,Dallas,gmail.com
+7,2025-11-30,NC,Seattle,gmail.com
+8,2025-11-06,TX,Chicago,gmail.com
+9,2025-10-15,NY,Dallas,yahoo.com
+10,2025-10-19,IL,Charlotte,gmail.com
+11,2025-11-06,GA,Dallas,yahoo.com
+12,2025-10-07,TX,Dallas,yahoo.com
+13,2025-10-24,NY,Dallas,gmail.com
+14,2025-11-06,NY,Dallas,yahoo.com
+15,2025-11-01,WA,Dallas,proton.me
+16,2025-11-19,GA,Chicago,proton.me
+17,2025-10-24,GA,Charlotte,yahoo.com
+18,2025-11-14,FL,Charlotte,gmail.com
+19,2025-11-06,GA,Dallas,proton.me
+20,2025-11-26,GA,Seattle,proton.me
+21,2025-10-19,TX,New York,gmail.com
+22,2025-11-02,IL,Charlotte,outlook.com
+23,2025-10-10,IL,Chicago,gmail.com
+24,2025-11-12,NY,Miami,outlook.com
+25,2025-10-22,WA,Atlanta,proton.me
+26,2025-11-07,FL,Chicago,gmail.com
+27,2025-11-23,NY,Atlanta,proton.me
+28,2025-11-14,WA,New York,gmail.com
+29,2025-11-16,WA,Atlanta,proton.me
+30,2025-10-19,WA,Chicago,outlook.com
+31,2025-10-02,IL,Atlanta,yahoo.com
+32,2025-11-09,NY,Chicago,gmail.com
+33,2025-10-14,FL,Atlanta,yahoo.com
+34,2025-11-17,NC,Chicago,proton.me
+35,2025-11-28,FL,Chicago,gmail.com
+36,2025-10-11,IL,Chicago,outlook.com
+37,2025-11-26,NC,Miami,proton.me
+38,2025-11-25,TX,Atlanta,proton.me
+39,2025-10-23,WA,Chicago,yahoo.com
+40,2025-10-10,NY,Charlotte,yahoo.com
+41,2025-10-15,WA,Charlotte,gmail.com
+42,2025-11-01,FL,Dallas,yahoo.com
+43,2025-10-17,GA,New York,yahoo.com
+44,2025-10-27,TX,Atlanta,outlook.com
+45,2025-11-30,NC,Seattle,gmail.com
+46,2025-10-30,FL,Miami,proton.me
+47,2025-10-26,IL,Chicago,gmail.com
+48,2025-10-31,WA,Chicago,gmail.com
+49,2025-10-13,NY,Charlotte,proton.me
+50,2025-10-11,NY,Atlanta,gmail.com
+51,2025-10-07,NY,Dallas,yahoo.com
+52,2025-11-04,NY,Atlanta,gmail.com
+53,2025-10-05,FL,Charlotte,proton.me
+54,2025-10-10,WA,Atlanta,outlook.com
+55,2025-11-08,GA,Chicago,gmail.com
+56,2025-10-08,FL,Chicago,proton.me
+57,2025-10-31,IL,Atlanta,gmail.com
+58,2025-10-10,NY,Seattle,outlook.com
+59,2025-11-17,GA,Chicago,yahoo.com
+60,2025-11-03,NY,Charlotte,outlook.com
+61,2025-10-10,WA,Dallas,gmail.com
+62,2025-11-18,TX,Atlanta,gmail.com
+63,2025-11-14,FL,Atlanta,outlook.com
+64,2025-11-28,NC,Atlanta,yahoo.com
+65,2025-11-04,TX,Miami,outlook.com
+66,2025-11-10,NC,Dallas,yahoo.com
+67,2025-11-21,NC,Miami,proton.me
+68,2025-11-17,FL,Charlotte,yahoo.com
+69,2025-11-03,IL,Atlanta,gmail.com
+70,2025-10-02,FL,Atlanta,proton.me
+71,2025-10-17,NC,Seattle,outlook.com
+72,2025-10-29,FL,Seattle,outlook.com
+73,2025-10-24,NY,Charlotte,gmail.com
+74,2025-10-15,IL,Charlotte,outlook.com
+75,2025-10-14,IL,Dallas,gmail.com
+76,2025-10-31,WA,Atlanta,gmail.com
+77,2025-11-23,WA,New York,proton.me
+78,2025-11-20,WA,Miami,yahoo.com
+79,2025-10-31,NC,Chicago,outlook.com
+80,2025-10-06,FL,Seattle,proton.me
+81,2025-10-30,IL,Seattle,gmail.com
+82,2025-11-16,NC,Charlotte,yahoo.com
+83,2025-10-02,NC,Dallas,proton.me
+84,2025-11-21,WA,Charlotte,proton.me
+85,2025-11-12,GA,Charlotte,yahoo.com
+86,2025-10-02,NY,Miami,gmail.com
+87,2025-11-03,WA,Charlotte,proton.me
+88,2025-11-25,NC,Miami,yahoo.com
+89,2025-10-02,GA,Charlotte,outlook.com
+90,2025-11-02,NC,Miami,outlook.com
+91,2025-10-17,TX,Chicago,yahoo.com
+92,2025-10-04,WA,Atlanta,proton.me
+93,2025-11-12,TX,Miami,proton.me
+94,2025-11-22,TX,Charlotte,yahoo.com
+95,2025-11-03,TX,New York,proton.me
+96,2025-11-19,NC,Dallas,gmail.com
+97,2025-11-19,FL,Charlotte,yahoo.com
+98,2025-10-10,IL,Dallas,gmail.com
+99,2025-11-05,NY,Atlanta,proton.me
+100,2025-11-20,FL,New York,gmail.com
+101,2025-10-16,NC,Atlanta,gmail.com
+102,2025-11-19,NY,Dallas,proton.me
+103,2025-11-05,NY,Miami,gmail.com
+104,2025-10-29,GA,Dallas,yahoo.com
+105,2025-11-14,GA,Chicago,proton.me
+106,2025-11-02,NC,Seattle,outlook.com
+107,2025-11-29,TX,Charlotte,proton.me
+108,2025-10-09,IL,New York,proton.me
+109,2025-10-29,GA,New York,yahoo.com
+110,2025-10-28,NY,Charlotte,outlook.com
+111,2025-11-20,NY,Miami,yahoo.com
+112,2025-11-30,WA,Seattle,outlook.com
+113,2025-10-10,GA,Charlotte,proton.me
+114,2025-10-15,WA,New York,proton.me
+115,2025-11-26,IL,Charlotte,yahoo.com
+116,2025-10-11,WA,Chicago,proton.me
+117,2025-10-22,IL,Charlotte,outlook.com
+118,2025-10-21,NY,Seattle,outlook.com
+119,2025-10-02,GA,Dallas,proton.me
+120,2025-10-29,WA,New York,proton.me
+121,2025-10-22,TX,Dallas,outlook.com
+122,2025-11-02,NY,New York,yahoo.com
+123,2025-11-26,NY,New York,outlook.com
+124,2025-10-18,NY,Miami,yahoo.com
+125,2025-10-18,FL,Charlotte,proton.me
+126,2025-11-24,WA,Miami,outlook.com
+127,2025-10-26,NC,Dallas,proton.me
+128,2025-11-14,GA,New York,outlook.com
+129,2025-10-04,FL,Seattle,yahoo.com
+130,2025-10-28,NY,Atlanta,gmail.com
+131,2025-11-10,NY,Miami,outlook.com
+132,2025-10-06,TX,Miami,yahoo.com
+133,2025-10-05,GA,Miami,gmail.com
+134,2025-10-30,NY,Atlanta,proton.me
+135,2025-11-29,GA,Dallas,yahoo.com
+136,2025-10-03,TX,Seattle,yahoo.com
+137,2025-11-30,NY,Charlotte,outlook.com
+138,2025-10-04,NC,Charlotte,outlook.com
+139,2025-11-10,GA,Dallas,yahoo.com
+140,2025-10-19,IL,Dallas,yahoo.com
+141,2025-10-18,GA,Miami,gmail.com
+142,2025-10-17,NY,New York,gmail.com
+143,2025-11-16,TX,Dallas,yahoo.com
+144,2025-11-02,IL,Charlotte,proton.me
+145,2025-10-07,WA,Miami,proton.me
+146,2025-11-12,IL,Dallas,proton.me
+147,2025-11-02,GA,Seattle,yahoo.com
+148,2025-10-15,GA,Charlotte,yahoo.com
+149,2025-10-26,GA,New York,yahoo.com
+150,2025-10-01,NY,Seattle,outlook.com
+151,2025-10-28,NC,New York,gmail.com
+152,2025-11-12,FL,Chicago,outlook.com
+153,2025-11-08,NC,Seattle,outlook.com
+154,2025-10-03,IL,Charlotte,yahoo.com
+155,2025-10-18,IL,New York,outlook.com
+156,2025-10-24,GA,Dallas,outlook.com
+157,2025-10-16,NY,Atlanta,yahoo.com
+158,2025-10-23,NC,New York,outlook.com
+159,2025-10-25,NY,Chicago,outlook.com
+160,2025-11-02,WA,Charlotte,yahoo.com
+161,2025-11-02,FL,New York,gmail.com
+162,2025-10-17,FL,New York,yahoo.com
+163,2025-10-26,TX,New York,proton.me
+164,2025-10-02,GA,Atlanta,yahoo.com
+165,2025-10-06,TX,Dallas,yahoo.com
+166,2025-11-12,WA,Miami,proton.me
+167,2025-11-18,GA,Seattle,proton.me
+168,2025-10-10,GA,Seattle,yahoo.com
+169,2025-10-03,FL,Miami,proton.me
+170,2025-11-16,WA,Miami,yahoo.com
+171,2025-11-28,TX,Miami,gmail.com
+172,2025-11-22,WA,Dallas,yahoo.com
+173,2025-10-06,NY,New York,yahoo.com
+174,2025-11-10,GA,New York,proton.me
+175,2025-11-23,IL,Dallas,gmail.com
+176,2025-11-10,NY,Seattle,yahoo.com
+177,2025-11-01,GA,New York,proton.me
+178,2025-11-21,NY,Seattle,gmail.com
+179,2025-11-12,TX,New York,proton.me
+180,2025-10-17,FL,New York,outlook.com
+181,2025-10-16,WA,Miami,yahoo.com
+182,2025-10-15,WA,Seattle,proton.me
+183,2025-11-01,FL,Chicago,gmail.com
+184,2025-10-31,WA,Atlanta,gmail.com
+185,2025-11-09,WA,Seattle,yahoo.com
+186,2025-10-05,TX,Charlotte,outlook.com
+187,2025-10-17,WA,Seattle,outlook.com
+188,2025-11-09,TX,Charlotte,gmail.com
+189,2025-10-31,NY,Chicago,outlook.com
+190,2025-11-13,NY,Seattle,yahoo.com
+191,2025-11-13,IL,Atlanta,outlook.com
+192,2025-10-30,IL,Chicago,gmail.com
+193,2025-11-27,TX,Charlotte,outlook.com
+194,2025-10-06,IL,New York,outlook.com
+195,2025-10-30,NY,Miami,proton.me
+196,2025-10-18,IL,Charlotte,yahoo.com
+197,2025-10-05,TX,New York,yahoo.com
+198,2025-11-17,TX,Atlanta,outlook.com
+199,2025-10-09,TX,Miami,outlook.com
+200,2025-11-26,NY,Seattle,outlook.com

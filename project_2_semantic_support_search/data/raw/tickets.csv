@@ -1,0 +1,1001 @@
+ticket_id,kb_id_gold,created_at,subject,body,priority
+1,15,2025-12-17T22:13:01.101968+00:00,Vpn Connect issue — started yesterday,"Subject: Vpn Connect issue — started yesterday
+Customer reports: disconnects frequently.
+Details: started yesterday. Contact: user1@outlook.com.
+Environment: app_version=2.0.1, os=iOS.
+Observed behavior: crash.",P1
+2,4,2025-12-17T22:13:01.103627+00:00,Billing Refund issue — high priority,"Subject: Billing Refund issue — high priority
+Customer reports: duplicate charge.
+Details: high priority. Contact: user2@gmail.com.
+Environment: app_version=2.0.1, os=Windows.
+Observed behavior: incorrect data.",P2
+3,10,2025-12-17T22:13:01.105002+00:00,Sso Setup issue — happens after the latest update,"Subject: Sso Setup issue — happens after the latest update
+Customer reports: redirect loop.
+Details: happens after the latest update. Contact: (943)-341-2568.
+Environment: app_version=2.0.1, os=macOS.
+Observed behavior: crash.",P2
+4,5,2025-12-17T22:13:01.107356+00:00,Data Export issue — high priority,"Subject: Data Export issue — high priority
+Customer reports: columns incorrect.
+Details: high priority. Contact: (829)-835-1857.
+Environment: app_version=2.0.1, os=Android.
+Observed behavior: error message.",P3
+5,5,2025-12-17T22:13:01.109658+00:00,Data Export issue — customer is angry,"Subject: Data Export issue — customer is angry
+Customer reports: columns incorrect.
+Details: customer is angry. Contact: (745)-526-3222.
+Environment: app_version=1.8.2, os=Windows.
+Observed behavior: crash.",P3
+6,7,2025-12-17T22:13:01.112819+00:00,Mobile Crash issue — customer is angry,"Subject: Mobile Crash issue — customer is angry
+Customer reports: crashes on launch.
+Details: customer is angry. Contact: (909)-919-9190.
+Environment: app_version=1.9.0, os=iOS.
+Observed behavior: incorrect data.",P1
+7,16,2025-12-17T22:13:01.114500+00:00,Billing Refund issue — only on wifi,"Subject: Billing Refund issue — only on wifi
+Customer reports: payment failed.
+Details: only on wifi. Contact: (510)-264-1879.
+Environment: app_version=2.0.1, os=iOS.
+Observed behavior: unexpected logout.",P2
+8,14,2025-12-17T22:13:01.116378+00:00,Mobile Crash issue — affects multiple users,"Subject: Mobile Crash issue — affects multiple users
+Customer reports: battery drain.
+Details: affects multiple users. Contact: (979)-636-5879.
+Environment: app_version=1.8.2, os=Windows.
+Observed behavior: unexpected logout.",P2
+9,8,2025-12-17T22:13:01.117988+00:00,Password Reset issue — happens after the latest update,"Subject: Password Reset issue — happens after the latest update
+Customer reports: reset link expired.
+Details: happens after the latest update. Contact: user9@company.com.
+Environment: app_version=2.0.1, os=iOS.
+Observed behavior: timeout.",P1
+10,20,2025-12-17T22:13:01.120332+00:00,Password Reset issue — started yesterday,"Subject: Password Reset issue — started yesterday
+Customer reports: password rules.
+Details: started yesterday. Contact: (777)-209-3927.
+Environment: app_version=1.9.0, os=iOS.
+Observed behavior: incorrect data.",P3
+11,3,2025-12-17T22:13:01.121679+00:00,Billing Refund issue — only on wifi,"Subject: Billing Refund issue — only on wifi
+Customer reports: refund status.
+Details: only on wifi. Contact: user11@company.com.
+Environment: app_version=1.9.0, os=Windows.
+Observed behavior: incorrect data.",P3
+12,19,2025-12-17T22:13:01.123247+00:00,Vpn Connect issue — affects multiple users,"Subject: Vpn Connect issue — affects multiple users
+Customer reports: disconnects frequently.
+Details: affects multiple users. Contact: user12@company.com.
+Environment: app_version=2.0.1, os=macOS.
+Observed behavior: incorrect data.",P1
+13,4,2025-12-17T22:13:01.125116+00:00,Billing Refund issue — customer is angry,"Subject: Billing Refund issue — customer is angry
+Customer reports: duplicate charge.
+Details: customer is angry. Contact: (551)-814-6132.
+Environment: app_version=2.0.1, os=Android.
+Observed behavior: error message.",P1
+14,2,2025-12-17T22:13:01.126419+00:00,Password Reset issue — started yesterday,"Subject: Password Reset issue — started yesterday
+Customer reports: 2fa code not arriving.
+Details: started yesterday. Contact: user14@gmail.com.
+Environment: app_version=1.9.0, os=Windows.
+Observed behavior: error message.",P2
+15,7,2025-12-17T22:13:01.127272+00:00,Mobile Crash issue — need resolution ASAP,"Subject: Mobile Crash issue — need resolution ASAP
+Customer reports: crashes on launch.
+Details: need resolution ASAP. Contact: (689)-806-3505.
+Environment: app_version=1.9.0, os=Android.
+Observed behavior: crash.",P3
+16,19,2025-12-17T22:13:01.128308+00:00,Vpn Connect issue — need resolution ASAP,"Subject: Vpn Connect issue — need resolution ASAP
+Customer reports: disconnects frequently.
+Details: need resolution ASAP. Contact: (424)-819-6112.
+Environment: app_version=1.8.2, os=iOS.
+Observed behavior: error message.",P2
+17,16,2025-12-17T22:13:01.130045+00:00,Billing Refund issue — high priority,"Subject: Billing Refund issue — high priority
+Customer reports: payment failed.
+Details: high priority. Contact: (291)-290-9313.
+Environment: app_version=1.8.2, os=Windows.
+Observed behavior: crash.",P1
+18,18,2025-12-17T22:13:01.131713+00:00,Billing Refund issue — affects multiple users,"Subject: Billing Refund issue — affects multiple users
+Customer reports: refund status.
+Details: affects multiple users. Contact: (501)-520-1210.
+Environment: app_version=2.0.1, os=Android.
+Observed behavior: timeout.",P3
+19,17,2025-12-17T22:13:01.133562+00:00,Vpn Connect issue — only on wifi,"Subject: Vpn Connect issue — only on wifi
+Customer reports: split tunneling.
+Details: only on wifi. Contact: user19@gmail.com.
+Environment: app_version=2.0.1, os=macOS.
+Observed behavior: timeout.",P1
+20,5,2025-12-17T22:13:01.134534+00:00,Data Export issue — started yesterday,"Subject: Data Export issue — started yesterday
+Customer reports: columns incorrect.
+Details: started yesterday. Contact: (481)-284-3156.
+Environment: app_version=2.0.1, os=iOS.
+Observed behavior: timeout.",P1
+21,3,2025-12-17T22:13:01.136750+00:00,Billing Refund issue — happens after the latest update,"Subject: Billing Refund issue — happens after the latest update
+Customer reports: refund status.
+Details: happens after the latest update. Contact: user21@outlook.com.
+Environment: app_version=1.9.0, os=macOS.
+Observed behavior: unexpected logout.",P2
+22,4,2025-12-17T22:13:01.137719+00:00,Billing Refund issue — high priority,"Subject: Billing Refund issue — high priority
+Customer reports: duplicate charge.
+Details: high priority. Contact: user22@gmail.com.
+Environment: app_version=1.9.0, os=Windows.
+Observed behavior: unexpected logout.",P1
+23,13,2025-12-17T22:13:01.138488+00:00,Mobile Crash issue — high priority,"Subject: Mobile Crash issue — high priority
+Customer reports: blank screen.
+Details: high priority. Contact: user23@outlook.com.
+Environment: app_version=2.0.1, os=iOS.
+Observed behavior: incorrect data.",P1
+24,7,2025-12-17T22:13:01.139314+00:00,Mobile Crash issue — high priority,"Subject: Mobile Crash issue — high priority
+Customer reports: crashes on launch.
+Details: high priority. Contact: user24@gmail.com.
+Environment: app_version=1.9.0, os=Android.
+Observed behavior: error message.",P2
+25,17,2025-12-17T22:13:01.140143+00:00,Vpn Connect issue — affects multiple users,"Subject: Vpn Connect issue — affects multiple users
+Customer reports: split tunneling.
+Details: affects multiple users. Contact: (477)-434-7473.
+Environment: app_version=1.8.2, os=Android.
+Observed behavior: incorrect data.",P2
+26,5,2025-12-17T22:13:01.141003+00:00,Data Export issue — happens after the latest update,"Subject: Data Export issue — happens after the latest update
+Customer reports: columns incorrect.
+Details: happens after the latest update. Contact: (369)-505-9094.
+Environment: app_version=1.8.2, os=macOS.
+Observed behavior: incorrect data.",P1
+27,8,2025-12-17T22:13:01.143051+00:00,Password Reset issue — affects multiple users,"Subject: Password Reset issue — affects multiple users
+Customer reports: reset link expired.
+Details: affects multiple users. Contact: user27@outlook.com.
+Environment: app_version=2.0.1, os=iOS.
+Observed behavior: incorrect data.",P1
+28,16,2025-12-17T22:13:01.145799+00:00,Billing Refund issue — happens after the latest update,"Subject: Billing Refund issue — happens after the latest update
+Customer reports: payment failed.
+Details: happens after the latest update. Contact: user28@outlook.com.
+Environment: app_version=2.0.1, os=macOS.
+Observed behavior: error message.",P2
+29,5,2025-12-17T22:13:01.146664+00:00,Data Export issue — started yesterday,"Subject: Data Export issue — started yesterday
+Customer reports: columns incorrect.
+Details: started yesterday. Contact: (752)-387-9095.
+Environment: app_version=1.8.2, os=macOS.
+Observed behavior: unexpected logout.",P2
+30,1,2025-12-17T22:13:01.147758+00:00,Data Export issue — customer is angry,"Subject: Data Export issue — customer is angry
+Customer reports: csv export missing rows.
+Details: customer is angry. Contact: user30@outlook.com.
+Environment: app_version=1.8.2, os=Windows.
+Observed behavior: error message.",P2
+31,17,2025-12-17T22:13:01.149394+00:00,Vpn Connect issue — affects multiple users,"Subject: Vpn Connect issue — affects multiple users
+Customer reports: split tunneling.
+Details: affects multiple users. Contact: user31@company.com.
+Environment: app_version=2.0.1, os=Windows.
+Observed behavior: timeout.",P1
+32,18,2025-12-17T22:13:01.150675+00:00,Billing Refund issue — happens after the latest update,"Subject: Billing Refund issue — happens after the latest update
+Customer reports: refund status.
+Details: happens after the latest update. Contact: user32@outlook.com.
+Environment: app_version=1.8.2, os=Windows.
+Observed behavior: unexpected logout.",P3
+33,16,2025-12-17T22:13:01.152465+00:00,Billing Refund issue — high priority,"Subject: Billing Refund issue — high priority
+Customer reports: payment failed.
+Details: high priority. Contact: user33@outlook.com.
+Environment: app_version=1.9.0, os=Android.
+Observed behavior: timeout.",P1
+34,19,2025-12-17T22:13:01.153264+00:00,Vpn Connect issue — customer is angry,"Subject: Vpn Connect issue — customer is angry
+Customer reports: disconnects frequently.
+Details: customer is angry. Contact: (767)-231-5294.
+Environment: app_version=1.8.2, os=Windows.
+Observed behavior: incorrect data.",P1
+35,19,2025-12-17T22:13:01.154015+00:00,Vpn Connect issue — started yesterday,"Subject: Vpn Connect issue — started yesterday
+Customer reports: disconnects frequently.
+Details: started yesterday. Contact: (565)-981-9332.
+Environment: app_version=1.8.2, os=Windows.
+Observed behavior: unexpected logout.",P3
+36,8,2025-12-17T22:13:01.154760+00:00,Password Reset issue — only on wifi,"Subject: Password Reset issue — only on wifi
+Customer reports: reset link expired.
+Details: only on wifi. Contact: user36@company.com.
+Environment: app_version=2.0.1, os=Windows.
+Observed behavior: timeout.",P2
+37,2,2025-12-17T22:13:01.155787+00:00,Password Reset issue — affects multiple users,"Subject: Password Reset issue — affects multiple users
+Customer reports: 2fa code not arriving.
+Details: affects multiple users. Contact: (221)-761-8367.
+Environment: app_version=2.0.1, os=Windows.
+Observed behavior: timeout.",P3
+38,14,2025-12-17T22:13:01.156644+00:00,Mobile Crash issue — started yesterday,"Subject: Mobile Crash issue — started yesterday
+Customer reports: battery drain.
+Details: started yesterday. Contact: (619)-273-6465.
+Environment: app_version=1.9.0, os=iOS.
+Observed behavior: incorrect data.",P1
+39,3,2025-12-17T22:13:01.157466+00:00,Billing Refund issue — affects multiple users,"Subject: Billing Refund issue — affects multiple users
+Customer reports: refund status.
+Details: affects multiple users. Contact: (311)-585-8096.
+Environment: app_version=1.8.2, os=Windows.
+Observed behavior: crash.",P2
+40,5,2025-12-17T22:13:01.158340+00:00,Data Export issue — happens after the latest update,"Subject: Data Export issue — happens after the latest update
+Customer reports: columns incorrect.
+Details: happens after the latest update. Contact: (932)-835-9781.
+Environment: app_version=1.9.0, os=Windows.
+Observed behavior: error message.",P3
+41,14,2025-12-17T22:13:01.173733+00:00,Mobile Crash issue — customer is angry,"Subject: Mobile Crash issue — customer is angry
+Customer reports: battery drain.
+Details: customer is angry. Contact: user41@outlook.com.
+Environment: app_version=1.9.0, os=macOS.
+Observed behavior: crash.",P1
+42,6,2025-12-17T22:13:01.175796+00:00,Password Reset issue — started yesterday,"Subject: Password Reset issue — started yesterday
+Customer reports: locked out.
+Details: started yesterday. Contact: user42@gmail.com.
+Environment: app_version=1.9.0, os=macOS.
+Observed behavior: unexpected logout.",P1
+43,8,2025-12-17T22:13:01.177392+00:00,Password Reset issue — customer is angry,"Subject: Password Reset issue — customer is angry
+Customer reports: reset link expired.
+Details: customer is angry. Contact: user43@gmail.com.
+Environment: app_version=1.9.0, os=Windows.
+Observed behavior: unexpected logout.",P1
+44,13,2025-12-17T22:13:01.178627+00:00,Mobile Crash issue — need resolution ASAP,"Subject: Mobile Crash issue — need resolution ASAP
+Customer reports: blank screen.
+Details: need resolution ASAP. Contact: (687)-710-4598.
+Environment: app_version=1.8.2, os=iOS.
+Observed behavior: incorrect data.",P3
+45,20,2025-12-17T22:13:01.180160+00:00,Password Reset issue — high priority,"Subject: Password Reset issue — high priority
+Customer reports: password rules.
+Details: high priority. Contact: user45@company.com.
+Environment: app_version=1.8.2, os=Android.
+Observed behavior: incorrect data.",P2
+46,19,2025-12-17T22:13:01.181572+00:00,Vpn Connect issue — only on wifi,"Subject: Vpn Connect issue — only on wifi
+Customer reports: disconnects frequently.
+Details: only on wifi. Contact: user46@gmail.com.
+Environment: app_version=2.0.1, os=Android.
+Observed behavior: error message.",P2
+47,13,2025-12-17T22:13:01.182991+00:00,Mobile Crash issue — customer is angry,"Subject: Mobile Crash issue — customer is angry
+Customer reports: blank screen.
+Details: customer is angry. Contact: (990)-248-9551.
+Environment: app_version=2.0.1, os=Windows.
+Observed behavior: timeout.",P1
+48,15,2025-12-17T22:13:01.184448+00:00,Vpn Connect issue — affects multiple users,"Subject: Vpn Connect issue — affects multiple users
+Customer reports: disconnects frequently.
+Details: affects multiple users. Contact: user48@gmail.com.
+Environment: app_version=2.0.1, os=Android.
+Observed behavior: error message.",P3
+49,10,2025-12-17T22:13:01.185640+00:00,Sso Setup issue — started yesterday,"Subject: Sso Setup issue — started yesterday
+Customer reports: redirect loop.
+Details: started yesterday. Contact: user49@company.com.
+Environment: app_version=2.0.1, os=Android.
+Observed behavior: crash.",P2
+50,16,2025-12-17T22:13:01.186822+00:00,Billing Refund issue — affects multiple users,"Subject: Billing Refund issue — affects multiple users
+Customer reports: payment failed.
+Details: affects multiple users. Contact: user50@outlook.com.
+Environment: app_version=1.9.0, os=iOS.
+Observed behavior: crash.",P3
+51,5,2025-12-17T22:13:01.188076+00:00,Data Export issue — affects multiple users,"Subject: Data Export issue — affects multiple users
+Customer reports: columns incorrect.
+Details: affects multiple users. Contact: (864)-365-2341.
+Environment: app_version=1.8.2, os=Android.
+Observed behavior: error message.",P1
+52,15,2025-12-17T22:13:01.188949+00:00,Vpn Connect issue — customer is angry,"Subject: Vpn Connect issue — customer is angry
+Customer reports: disconnects frequently.
+Details: customer is angry. Contact: (286)-987-2135.
+Environment: app_version=1.9.0, os=iOS.
+Observed behavior: error message.",P1
+53,20,2025-12-17T22:13:01.189716+00:00,Password Reset issue — happens after the latest update,"Subject: Password Reset issue — happens after the latest update
+Customer reports: password rules.
+Details: happens after the latest update. Contact: user53@company.com.
+Environment: app_version=1.8.2, os=macOS.
+Observed behavior: crash.",P3
+54,14,2025-12-17T22:13:01.190688+00:00,Mobile Crash issue — affects multiple users,"Subject: Mobile Crash issue — affects multiple users
+Customer reports: battery drain.
+Details: affects multiple users. Contact: (463)-335-6479.
+Environment: app_version=1.8.2, os=Android.
+Observed behavior: crash.",P3
+55,5,2025-12-17T22:13:01.191521+00:00,Data Export issue — only on wifi,"Subject: Data Export issue — only on wifi
+Customer reports: columns incorrect.
+Details: only on wifi. Contact: user55@company.com.
+Environment: app_version=2.0.1, os=iOS.
+Observed behavior: timeout.",P3
+56,2,2025-12-17T22:13:01.192394+00:00,Password Reset issue — high priority,"Subject: Password Reset issue — high priority
+Customer reports: 2fa code not arriving.
+Details: high priority. Contact: user56@outlook.com.
+Environment: app_version=2.0.1, os=macOS.
+Observed behavior: crash.",P3
+57,3,2025-12-17T22:13:01.193152+00:00,Billing Refund issue — need resolution ASAP,"Subject: Billing Refund issue — need resolution ASAP
+Customer reports: refund status.
+Details: need resolution ASAP. Contact: (806)-983-8258.
+Environment: app_version=2.0.1, os=Android.
+Observed behavior: crash.",P1
+58,16,2025-12-17T22:13:01.193801+00:00,Billing Refund issue — affects multiple users,"Subject: Billing Refund issue — affects multiple users
+Customer reports: payment failed.
+Details: affects multiple users. Contact: user58@gmail.com.
+Environment: app_version=1.8.2, os=Android.
+Observed behavior: unexpected logout.",P3
+59,3,2025-12-17T22:13:01.194496+00:00,Billing Refund issue — only on wifi,"Subject: Billing Refund issue — only on wifi
+Customer reports: refund status.
+Details: only on wifi. Contact: (281)-796-9876.
+Environment: app_version=2.0.1, os=iOS.
+Observed behavior: timeout.",P2
+60,8,2025-12-17T22:13:01.195404+00:00,Password Reset issue — affects multiple users,"Subject: Password Reset issue — affects multiple users
+Customer reports: reset link expired.
+Details: affects multiple users. Contact: (677)-920-5880.
+Environment: app_version=2.0.1, os=Windows.
+Observed behavior: error message.",P2
+61,18,2025-12-17T22:13:01.196183+00:00,Billing Refund issue — high priority,"Subject: Billing Refund issue — high priority
+Customer reports: refund status.
+Details: high priority. Contact: user61@gmail.com.
+Environment: app_version=2.0.1, os=Windows.
+Observed behavior: error message.",P3
+62,17,2025-12-17T22:13:01.197022+00:00,Vpn Connect issue — started yesterday,"Subject: Vpn Connect issue — started yesterday
+Customer reports: split tunneling.
+Details: started yesterday. Contact: (741)-362-2578.
+Environment: app_version=1.9.0, os=macOS.
+Observed behavior: error message.",P1
+63,6,2025-12-17T22:13:01.197982+00:00,Password Reset issue — happens after the latest update,"Subject: Password Reset issue — happens after the latest update
+Customer reports: locked out.
+Details: happens after the latest update. Contact: (822)-846-4835.
+Environment: app_version=2.0.1, os=macOS.
+Observed behavior: timeout.",P2
+64,4,2025-12-17T22:13:01.198782+00:00,Billing Refund issue — customer is angry,"Subject: Billing Refund issue — customer is angry
+Customer reports: duplicate charge.
+Details: customer is angry. Contact: user64@company.com.
+Environment: app_version=1.8.2, os=macOS.
+Observed behavior: incorrect data.",P1
+65,10,2025-12-17T22:13:01.199643+00:00,Sso Setup issue — high priority,"Subject: Sso Setup issue — high priority
+Customer reports: redirect loop.
+Details: high priority. Contact: user65@gmail.com.
+Environment: app_version=1.8.2, os=Android.
+Observed behavior: unexpected logout.",P3
+66,7,2025-12-17T22:13:01.200637+00:00,Mobile Crash issue — need resolution ASAP,"Subject: Mobile Crash issue — need resolution ASAP
+Customer reports: crashes on launch.
+Details: need resolution ASAP. Contact: user66@gmail.com.
+Environment: app_version=2.0.1, os=Android.
+Observed behavior: incorrect data.",P1
+67,12,2025-12-17T22:13:01.201297+00:00,Billing Refund issue — customer is angry,"Subject: Billing Refund issue — customer is angry
+Customer reports: update card.
+Details: customer is angry. Contact: user67@outlook.com.
+Environment: app_version=2.0.1, os=Android.
+Observed behavior: unexpected logout.",P2
+68,12,2025-12-17T22:13:01.202662+00:00,Billing Refund issue — affects multiple users,"Subject: Billing Refund issue — affects multiple users
+Customer reports: update card.
+Details: affects multiple users. Contact: (812)-382-2250.
+Environment: app_version=2.0.1, os=iOS.
+Observed behavior: crash.",P1
+69,7,2025-12-17T22:13:01.204056+00:00,Mobile Crash issue — need resolution ASAP,"Subject: Mobile Crash issue — need resolution ASAP
+Customer reports: crashes on launch.
+Details: need resolution ASAP. Contact: user69@outlook.com.
+Environment: app_version=2.0.1, os=macOS.
+Observed behavior: unexpected logout.",P2
+70,5,2025-12-17T22:13:01.205264+00:00,Data Export issue — affects multiple users,"Subject: Data Export issue — affects multiple users
+Customer reports: columns incorrect.
+Details: affects multiple users. Contact: (449)-542-1838.
+Environment: app_version=2.0.1, os=Android.
+Observed behavior: error message.",P1
+71,1,2025-12-17T22:13:01.206416+00:00,Data Export issue — customer is angry,"Subject: Data Export issue — customer is angry
+Customer reports: csv export missing rows.
+Details: customer is angry. Contact: user71@company.com.
+Environment: app_version=1.9.0, os=Windows.
+Observed behavior: timeout.",P2
+72,18,2025-12-17T22:13:01.207710+00:00,Billing Refund issue — customer is angry,"Subject: Billing Refund issue — customer is angry
+Customer reports: refund status.
+Details: customer is angry. Contact: (644)-941-8184.
+Environment: app_version=2.0.1, os=iOS.
+Observed behavior: crash.",P3
+73,16,2025-12-17T22:13:01.208712+00:00,Billing Refund issue — only on wifi,"Subject: Billing Refund issue — only on wifi
+Customer reports: payment failed.
+Details: only on wifi. Contact: (937)-226-5453.
+Environment: app_version=1.9.0, os=Android.
+Observed behavior: timeout.",P1
+74,8,2025-12-17T22:13:01.209524+00:00,Password Reset issue — only on wifi,"Subject: Password Reset issue — only on wifi
+Customer reports: reset link expired.
+Details: only on wifi. Contact: user74@outlook.com.
+Environment: app_version=1.9.0, os=iOS.
+Observed behavior: timeout.",P3
+75,6,2025-12-17T22:13:01.210309+00:00,Password Reset issue — only on wifi,"Subject: Password Reset issue — only on wifi
+Customer reports: locked out.
+Details: only on wifi. Contact: (246)-390-4670.
+Environment: app_version=2.0.1, os=macOS.
+Observed behavior: crash.",P1
+76,16,2025-12-17T22:13:01.211212+00:00,Billing Refund issue — happens after the latest update,"Subject: Billing Refund issue — happens after the latest update
+Customer reports: payment failed.
+Details: happens after the latest update. Contact: (901)-893-4599.
+Environment: app_version=1.9.0, os=Android.
+Observed behavior: incorrect data.",P1
+77,20,2025-12-17T22:13:01.211961+00:00,Password Reset issue — only on wifi,"Subject: Password Reset issue — only on wifi
+Customer reports: password rules.
+Details: only on wifi. Contact: user77@outlook.com.
+Environment: app_version=1.8.2, os=Android.
+Observed behavior: unexpected logout.",P2
+78,20,2025-12-17T22:13:01.212710+00:00,Password Reset issue — started yesterday,"Subject: Password Reset issue — started yesterday
+Customer reports: password rules.
+Details: started yesterday. Contact: (446)-680-7982.
+Environment: app_version=1.9.0, os=Windows.
+Observed behavior: error message.",P3
+79,16,2025-12-17T22:13:01.213488+00:00,Billing Refund issue — high priority,"Subject: Billing Refund issue — high priority
+Customer reports: payment failed.
+Details: high priority. Contact: user79@gmail.com.
+Environment: app_version=1.8.2, os=Windows.
+Observed behavior: timeout.",P1
+80,20,2025-12-17T22:13:01.214861+00:00,Password Reset issue — affects multiple users,"Subject: Password Reset issue — affects multiple users
+Customer reports: password rules.
+Details: affects multiple users. Contact: user80@outlook.com.
+Environment: app_version=1.9.0, os=iOS.
+Observed behavior: timeout.",P2
+81,13,2025-12-17T22:13:01.216381+00:00,Mobile Crash issue — started yesterday,"Subject: Mobile Crash issue — started yesterday
+Customer reports: blank screen.
+Details: started yesterday. Contact: (378)-998-7691.
+Environment: app_version=1.9.0, os=Android.
+Observed behavior: incorrect data.",P2
+82,11,2025-12-17T22:13:01.217593+00:00,Password Reset issue — customer is angry,"Subject: Password Reset issue — customer is angry
+Customer reports: locked out.
+Details: customer is angry. Contact: user82@outlook.com.
+Environment: app_version=1.8.2, os=Android.
+Observed behavior: incorrect data.",P3
+83,17,2025-12-17T22:13:01.218774+00:00,Vpn Connect issue — need resolution ASAP,"Subject: Vpn Connect issue — need resolution ASAP
+Customer reports: split tunneling.
+Details: need resolution ASAP. Contact: (260)-456-3530.
+Environment: app_version=1.9.0, os=Android.
+Observed behavior: unexpected logout.",P2
+84,10,2025-12-17T22:13:01.220116+00:00,Sso Setup issue — customer is angry,"Subject: Sso Setup issue — customer is angry
+Customer reports: redirect loop.
+Details: customer is angry. Contact: (914)-337-4010.
+Environment: app_version=1.9.0, os=macOS.
+Observed behavior: error message.",P1
+85,12,2025-12-17T22:13:01.221307+00:00,Billing Refund issue — affects multiple users,"Subject: Billing Refund issue — affects multiple users
+Customer reports: update card.
+Details: affects multiple users. Contact: (450)-929-2118.
+Environment: app_version=1.9.0, os=Windows.
+Observed behavior: unexpected logout.",P2
+86,14,2025-12-17T22:13:01.222534+00:00,Mobile Crash issue — started yesterday,"Subject: Mobile Crash issue — started yesterday
+Customer reports: battery drain.
+Details: started yesterday. Contact: (703)-470-7765.
+Environment: app_version=2.0.1, os=Windows.
+Observed behavior: unexpected logout.",P3
+87,10,2025-12-17T22:13:01.223889+00:00,Sso Setup issue — only on wifi,"Subject: Sso Setup issue — only on wifi
+Customer reports: redirect loop.
+Details: only on wifi. Contact: user87@outlook.com.
+Environment: app_version=2.0.1, os=iOS.
+Observed behavior: unexpected logout.",P3
+88,20,2025-12-17T22:13:01.225174+00:00,Password Reset issue — only on wifi,"Subject: Password Reset issue — only on wifi
+Customer reports: password rules.
+Details: only on wifi. Contact: user88@gmail.com.
+Environment: app_version=1.8.2, os=Android.
+Observed behavior: crash.",P3
+89,6,2025-12-17T22:13:01.226344+00:00,Password Reset issue — started yesterday,"Subject: Password Reset issue — started yesterday
+Customer reports: locked out.
+Details: started yesterday. Contact: user89@gmail.com.
+Environment: app_version=2.0.1, os=iOS.
+Observed behavior: unexpected logout.",P3
+90,9,2025-12-17T22:13:01.227441+00:00,Billing Refund issue — customer is angry,"Subject: Billing Refund issue — customer is angry
+Customer reports: refund status.
+Details: customer is angry. Contact: user90@outlook.com.
+Environment: app_version=2.0.1, os=iOS.
+Observed behavior: unexpected logout.",P2
+91,14,2025-12-17T22:13:01.228211+00:00,Mobile Crash issue — customer is angry,"Subject: Mobile Crash issue — customer is angry
+Customer reports: battery drain.
+Details: customer is angry. Contact: user91@company.com.
+Environment: app_version=2.0.1, os=macOS.
+Observed behavior: error message.",P2
+92,14,2025-12-17T22:13:01.229068+00:00,Mobile Crash issue — need resolution ASAP,"Subject: Mobile Crash issue — need resolution ASAP
+Customer reports: battery drain.
+Details: need resolution ASAP. Contact: (634)-217-2004.
+Environment: app_version=1.9.0, os=macOS.
+Observed behavior: crash.",P3
+93,11,2025-12-17T22:13:01.229790+00:00,Password Reset issue — need resolution ASAP,"Subject: Password Reset issue — need resolution ASAP
+Customer reports: locked out.
+Details: need resolution ASAP. Contact: (542)-578-1493.
+Environment: app_version=1.9.0, os=Android.
+Observed behavior: incorrect data.",P1
+94,5,2025-12-17T22:13:01.230520+00:00,Data Export issue — high priority,"Subject: Data Export issue — high priority
+Customer reports: columns incorrect.
+Details: high priority. Contact: (284)-686-1916.
+Environment: app_version=1.8.2, os=macOS.
+Observed behavior: error message.",P3
+95,11,2025-12-17T22:13:01.231430+00:00,Password Reset issue — customer is angry,"Subject: Password Reset issue — customer is angry
+Customer reports: locked out.
+Details: customer is angry. Contact: user95@outlook.com.
+Environment: app_version=1.8.2, os=macOS.
+Observed behavior: unexpected logout.",P1
+96,1,2025-12-17T22:13:01.232214+00:00,Data Export issue — happens after the latest update,"Subject: Data Export issue — happens after the latest update
+Customer reports: csv export missing rows.
+Details: happens after the latest update. Contact: (501)-973-6514.
+Environment: app_version=1.8.2, os=iOS.
+Observed behavior: incorrect data.",P3
+97,6,2025-12-17T22:13:01.233438+00:00,Password Reset issue — high priority,"Subject: Password Reset issue — high priority
+Customer reports: locked out.
+Details: high priority. Contact: (642)-244-5743.
+Environment: app_version=1.9.0, os=macOS.
+Observed behavior: timeout.",P1
+98,5,2025-12-17T22:13:01.234280+00:00,Data Export issue — only on wifi,"Subject: Data Export issue — only on wifi
+Customer reports: columns incorrect.
+Details: only on wifi. Contact: (418)-847-6132.
+Environment: app_version=1.8.2, os=macOS.
+Observed behavior: error message.",P3
+99,17,2025-12-17T22:13:01.235231+00:00,Vpn Connect issue — affects multiple users,"Subject: Vpn Connect issue — affects multiple users
+Customer reports: split tunneling.
+Details: affects multiple users. Contact: (517)-488-6986.
+Environment: app_version=1.9.0, os=Windows.
+Observed behavior: crash.",P1
+100,15,2025-12-17T22:13:01.236149+00:00,Vpn Connect issue — only on wifi,"Subject: Vpn Connect issue — only on wifi
+Customer reports: disconnects frequently.
+Details: only on wifi. Contact: (297)-319-4350.
+Environment: app_version=1.8.2, os=iOS.
+Observed behavior: timeout.",P3
+101,11,2025-12-17T22:13:01.237057+00:00,Password Reset issue — need resolution ASAP,"Subject: Password Reset issue — need resolution ASAP
+Customer reports: locked out.
+Details: need resolution ASAP. Contact: user101@company.com.
+Environment: app_version=2.0.1, os=Windows.
+Observed behavior: error message.",P3
+102,11,2025-12-17T22:13:01.238809+00:00,Password Reset issue — started yesterday,"Subject: Password Reset issue — started yesterday
+Customer reports: locked out.
+Details: started yesterday. Contact: user102@company.com.
+Environment: app_version=1.9.0, os=Windows.
+Observed behavior: incorrect data.",P1
+103,5,2025-12-17T22:13:01.240695+00:00,Data Export issue — started yesterday,"Subject: Data Export issue — started yesterday
+Customer reports: columns incorrect.
+Details: started yesterday. Contact: user103@outlook.com.
+Environment: app_version=2.0.1, os=Windows.
+Observed behavior: crash.",P2
+104,2,2025-12-17T22:13:01.242256+00:00,Password Reset issue — need resolution ASAP,"Subject: Password Reset issue — need resolution ASAP
+Customer reports: 2fa code not arriving.
+Details: need resolution ASAP. Contact: user104@gmail.com.
+Environment: app_version=1.9.0, os=Android.
+Observed behavior: incorrect data.",P3
+105,8,2025-12-17T22:13:01.243873+00:00,Password Reset issue — only on wifi,"Subject: Password Reset issue — only on wifi
+Customer reports: reset link expired.
+Details: only on wifi. Contact: (544)-871-2357.
+Environment: app_version=1.9.0, os=Windows.
+Observed behavior: error message.",P2
+106,6,2025-12-17T22:13:01.245666+00:00,Password Reset issue — high priority,"Subject: Password Reset issue — high priority
+Customer reports: locked out.
+Details: high priority. Contact: user106@gmail.com.
+Environment: app_version=1.9.0, os=macOS.
+Observed behavior: crash.",P1
+107,19,2025-12-17T22:13:01.247563+00:00,Vpn Connect issue — happens after the latest update,"Subject: Vpn Connect issue — happens after the latest update
+Customer reports: disconnects frequently.
+Details: happens after the latest update. Contact: user107@company.com.
+Environment: app_version=1.8.2, os=iOS.
+Observed behavior: error message.",P1
+108,9,2025-12-17T22:13:01.249289+00:00,Billing Refund issue — high priority,"Subject: Billing Refund issue — high priority
+Customer reports: refund status.
+Details: high priority. Contact: user108@gmail.com.
+Environment: app_version=1.9.0, os=Android.
+Observed behavior: unexpected logout.",P2
+109,1,2025-12-17T22:13:01.250815+00:00,Data Export issue — only on wifi,"Subject: Data Export issue — only on wifi
+Customer reports: csv export missing rows.
+Details: only on wifi. Contact: user109@outlook.com.
+Environment: app_version=1.9.0, os=macOS.
+Observed behavior: unexpected logout.",P2
+110,20,2025-12-17T22:13:01.252457+00:00,Password Reset issue — high priority,"Subject: Password Reset issue — high priority
+Customer reports: password rules.
+Details: high priority. Contact: user110@company.com.
+Environment: app_version=2.0.1, os=iOS.
+Observed behavior: incorrect data.",P1
+111,19,2025-12-17T22:13:01.253572+00:00,Vpn Connect issue — need resolution ASAP,"Subject: Vpn Connect issue — need resolution ASAP
+Customer reports: disconnects frequently.
+Details: need resolution ASAP. Contact: (261)-254-5859.
+Environment: app_version=1.8.2, os=Android.
+Observed behavior: incorrect data.",P1
+112,2,2025-12-17T22:13:01.254272+00:00,Password Reset issue — customer is angry,"Subject: Password Reset issue — customer is angry
+Customer reports: 2fa code not arriving.
+Details: customer is angry. Contact: (711)-716-9671.
+Environment: app_version=1.8.2, os=Android.
+Observed behavior: unexpected logout.",P3
+113,18,2025-12-17T22:13:01.255127+00:00,Billing Refund issue — only on wifi,"Subject: Billing Refund issue — only on wifi
+Customer reports: refund status.
+Details: only on wifi. Contact: user113@gmail.com.
+Environment: app_version=1.8.2, os=macOS.
+Observed behavior: incorrect data.",P2
+114,7,2025-12-17T22:13:01.255889+00:00,Mobile Crash issue — affects multiple users,"Subject: Mobile Crash issue — affects multiple users
+Customer reports: crashes on launch.
+Details: affects multiple users. Contact: (406)-859-4647.
+Environment: app_version=2.0.1, os=Windows.
+Observed behavior: unexpected logout.",P3
+115,9,2025-12-17T22:13:01.256632+00:00,Billing Refund issue — high priority,"Subject: Billing Refund issue — high priority
+Customer reports: refund status.
+Details: high priority. Contact: (600)-443-3096.
+Environment: app_version=1.8.2, os=Android.
+Observed behavior: error message.",P3
+116,4,2025-12-17T22:13:01.257318+00:00,Billing Refund issue — high priority,"Subject: Billing Refund issue — high priority
+Customer reports: duplicate charge.
+Details: high priority. Contact: user116@gmail.com.
+Environment: app_version=1.9.0, os=iOS.
+Observed behavior: unexpected logout.",P3
+117,9,2025-12-17T22:13:01.258104+00:00,Billing Refund issue — started yesterday,"Subject: Billing Refund issue — started yesterday
+Customer reports: refund status.
+Details: started yesterday. Contact: (808)-679-6703.
+Environment: app_version=1.8.2, os=macOS.
+Observed behavior: unexpected logout.",P3
+118,1,2025-12-17T22:13:01.258923+00:00,Data Export issue — happens after the latest update,"Subject: Data Export issue — happens after the latest update
+Customer reports: csv export missing rows.
+Details: happens after the latest update. Contact: user118@outlook.com.
+Environment: app_version=2.0.1, os=iOS.
+Observed behavior: error message.",P1
+119,8,2025-12-17T22:13:01.259769+00:00,Password Reset issue — customer is angry,"Subject: Password Reset issue — customer is angry
+Customer reports: reset link expired.
+Details: customer is angry. Contact: user119@outlook.com.
+Environment: app_version=2.0.1, os=Windows.
+Observed behavior: timeout.",P2
+120,9,2025-12-17T22:13:01.260573+00:00,Billing Refund issue — need resolution ASAP,"Subject: Billing Refund issue — need resolution ASAP
+Customer reports: refund status.
+Details: need resolution ASAP. Contact: (355)-919-2261.
+Environment: app_version=1.9.0, os=iOS.
+Observed behavior: timeout.",P2
+121,14,2025-12-17T22:13:01.261314+00:00,Mobile Crash issue — started yesterday,"Subject: Mobile Crash issue — started yesterday
+Customer reports: battery drain.
+Details: started yesterday. Contact: user121@gmail.com.
+Environment: app_version=2.0.1, os=macOS.
+Observed behavior: error message.",P2
+122,10,2025-12-17T22:13:01.262127+00:00,Sso Setup issue — only on wifi,"Subject: Sso Setup issue — only on wifi
+Customer reports: redirect loop.
+Details: only on wifi. Contact: (414)-253-3750.
+Environment: app_version=2.0.1, os=macOS.
+Observed behavior: timeout.",P2
+123,9,2025-12-17T22:13:01.262915+00:00,Billing Refund issue — customer is angry,"Subject: Billing Refund issue — customer is angry
+Customer reports: refund status.
+Details: customer is angry. Contact: user123@gmail.com.
+Environment: app_version=1.9.0, os=macOS.
+Observed behavior: incorrect data.",P2
+124,9,2025-12-17T22:13:01.264570+00:00,Billing Refund issue — affects multiple users,"Subject: Billing Refund issue — affects multiple users
+Customer reports: refund status.
+Details: affects multiple users. Contact: user124@outlook.com.
+Environment: app_version=1.8.2, os=Android.
+Observed behavior: timeout.",P2
+125,15,2025-12-17T22:13:01.265613+00:00,Vpn Connect issue — customer is angry,"Subject: Vpn Connect issue — customer is angry
+Customer reports: disconnects frequently.
+Details: customer is angry. Contact: user125@outlook.com.
+Environment: app_version=1.9.0, os=iOS.
+Observed behavior: error message.",P3
+126,17,2025-12-17T22:13:01.266927+00:00,Vpn Connect issue — only on wifi,"Subject: Vpn Connect issue — only on wifi
+Customer reports: split tunneling.
+Details: only on wifi. Contact: (556)-674-3057.
+Environment: app_version=1.9.0, os=macOS.
+Observed behavior: timeout.",P3
+127,4,2025-12-17T22:13:01.268972+00:00,Billing Refund issue — only on wifi,"Subject: Billing Refund issue — only on wifi
+Customer reports: duplicate charge.
+Details: only on wifi. Contact: user127@gmail.com.
+Environment: app_version=1.8.2, os=Android.
+Observed behavior: error message.",P2
+128,18,2025-12-17T22:13:01.272935+00:00,Billing Refund issue — need resolution ASAP,"Subject: Billing Refund issue — need resolution ASAP
+Customer reports: refund status.
+Details: need resolution ASAP. Contact: (711)-370-7144.
+Environment: app_version=1.8.2, os=Android.
+Observed behavior: crash.",P2
+129,1,2025-12-17T22:13:01.274135+00:00,Data Export issue — need resolution ASAP,"Subject: Data Export issue — need resolution ASAP
+Customer reports: csv export missing rows.
+Details: need resolution ASAP. Contact: (689)-542-3284.
+Environment: app_version=2.0.1, os=iOS.
+Observed behavior: crash.",P1
+130,7,2025-12-17T22:13:01.275371+00:00,Mobile Crash issue — happens after the latest update,"Subject: Mobile Crash issue — happens after the latest update
+Customer reports: crashes on launch.
+Details: happens after the latest update. Contact: user130@company.com.
+Environment: app_version=2.0.1, os=Android.
+Observed behavior: error message.",P1
+131,13,2025-12-17T22:13:01.276206+00:00,Mobile Crash issue — happens after the latest update,"Subject: Mobile Crash issue — happens after the latest update
+Customer reports: blank screen.
+Details: happens after the latest update. Contact: (933)-233-3884.
+Environment: app_version=2.0.1, os=macOS.
+Observed behavior: unexpected logout.",P3
+132,13,2025-12-17T22:13:01.277087+00:00,Mobile Crash issue — only on wifi,"Subject: Mobile Crash issue — only on wifi
+Customer reports: blank screen.
+Details: only on wifi. Contact: (468)-244-4201.
+Environment: app_version=1.9.0, os=iOS.
+Observed behavior: unexpected logout.",P2
+133,1,2025-12-17T22:13:01.277813+00:00,Data Export issue — customer is angry,"Subject: Data Export issue — customer is angry
+Customer reports: csv export missing rows.
+Details: customer is angry. Contact: user133@gmail.com.
+Environment: app_version=2.0.1, os=Android.
+Observed behavior: incorrect data.",P2
+134,2,2025-12-17T22:13:01.278515+00:00,Password Reset issue — customer is angry,"Subject: Password Reset issue — customer is angry
+Customer reports: 2fa code not arriving.
+Details: customer is angry. Contact: (558)-619-8180.
+Environment: app_version=2.0.1, os=Windows.
+Observed behavior: crash.",P3
+135,15,2025-12-17T22:13:01.279241+00:00,Vpn Connect issue — happens after the latest update,"Subject: Vpn Connect issue — happens after the latest update
+Customer reports: disconnects frequently.
+Details: happens after the latest update. Contact: user135@company.com.
+Environment: app_version=2.0.1, os=Android.
+Observed behavior: crash.",P1
+136,18,2025-12-17T22:13:01.280006+00:00,Billing Refund issue — affects multiple users,"Subject: Billing Refund issue — affects multiple users
+Customer reports: refund status.
+Details: affects multiple users. Contact: (728)-710-1461.
+Environment: app_version=1.8.2, os=macOS.
+Observed behavior: timeout.",P3
+137,4,2025-12-17T22:13:01.280705+00:00,Billing Refund issue — happens after the latest update,"Subject: Billing Refund issue — happens after the latest update
+Customer reports: duplicate charge.
+Details: happens after the latest update. Contact: user137@gmail.com.
+Environment: app_version=2.0.1, os=iOS.
+Observed behavior: incorrect data.",P3
+138,4,2025-12-17T22:13:01.281418+00:00,Billing Refund issue — need resolution ASAP,"Subject: Billing Refund issue — need resolution ASAP
+Customer reports: duplicate charge.
+Details: need resolution ASAP. Contact: (407)-407-2849.
+Environment: app_version=1.8.2, os=Android.
+Observed behavior: unexpected logout.",P1
+139,11,2025-12-17T22:13:01.282108+00:00,Password Reset issue — customer is angry,"Subject: Password Reset issue — customer is angry
+Customer reports: locked out.
+Details: customer is angry. Contact: (394)-477-6322.
+Environment: app_version=1.8.2, os=macOS.
+Observed behavior: error message.",P2
+140,16,2025-12-17T22:13:01.283399+00:00,Billing Refund issue — customer is angry,"Subject: Billing Refund issue — customer is angry
+Customer reports: payment failed.
+Details: customer is angry. Contact: user140@gmail.com.
+Environment: app_version=2.0.1, os=macOS.
+Observed behavior: unexpected logout.",P2
+141,8,2025-12-17T22:13:01.284171+00:00,Password Reset issue — affects multiple users,"Subject: Password Reset issue — affects multiple users
+Customer reports: reset link expired.
+Details: affects multiple users. Contact: (260)-951-8984.
+Environment: app_version=1.9.0, os=macOS.
+Observed behavior: unexpected logout.",P2
+142,7,2025-12-17T22:13:01.285106+00:00,Mobile Crash issue — only on wifi,"Subject: Mobile Crash issue — only on wifi
+Customer reports: crashes on launch.
+Details: only on wifi. Contact: user142@company.com.
+Environment: app_version=1.9.0, os=iOS.
+Observed behavior: unexpected logout.",P3
+143,11,2025-12-17T22:13:01.286438+00:00,Password Reset issue — high priority,"Subject: Password Reset issue — high priority
+Customer reports: locked out.
+Details: high priority. Contact: (972)-356-4985.
+Environment: app_version=1.8.2, os=Windows.
+Observed behavior: timeout.",P3
+144,5,2025-12-17T22:13:01.287754+00:00,Data Export issue — need resolution ASAP,"Subject: Data Export issue — need resolution ASAP
+Customer reports: columns incorrect.
+Details: need resolution ASAP. Contact: user144@gmail.com.
+Environment: app_version=2.0.1, os=Android.
+Observed behavior: error message.",P2
+145,20,2025-12-17T22:13:01.288954+00:00,Password Reset issue — high priority,"Subject: Password Reset issue — high priority
+Customer reports: password rules.
+Details: high priority. Contact: (807)-722-8668.
+Environment: app_version=1.9.0, os=Windows.
+Observed behavior: crash.",P2
+146,17,2025-12-17T22:13:01.290076+00:00,Vpn Connect issue — started yesterday,"Subject: Vpn Connect issue — started yesterday
+Customer reports: split tunneling.
+Details: started yesterday. Contact: (294)-751-5426.
+Environment: app_version=1.9.0, os=iOS.
+Observed behavior: unexpected logout.",P2
+147,10,2025-12-17T22:13:01.291244+00:00,Sso Setup issue — customer is angry,"Subject: Sso Setup issue — customer is angry
+Customer reports: redirect loop.
+Details: customer is angry. Contact: (659)-429-7489.
+Environment: app_version=2.0.1, os=macOS.
+Observed behavior: incorrect data.",P1
+148,8,2025-12-17T22:13:01.292391+00:00,Password Reset issue — only on wifi,"Subject: Password Reset issue — only on wifi
+Customer reports: reset link expired.
+Details: only on wifi. Contact: (289)-883-2781.
+Environment: app_version=1.9.0, os=macOS.
+Observed behavior: incorrect data.",P1
+149,17,2025-12-17T22:13:01.293410+00:00,Vpn Connect issue — affects multiple users,"Subject: Vpn Connect issue — affects multiple users
+Customer reports: split tunneling.
+Details: affects multiple users. Contact: user149@company.com.
+Environment: app_version=2.0.1, os=Windows.
+Observed behavior: crash.",P1
+150,1,2025-12-17T22:13:01.294810+00:00,Data Export issue — high priority,"Subject: Data Export issue — high priority
+Customer reports: csv export missing rows.
+Details: high priority. Contact: (643)-429-9816.
+Environment: app_version=1.9.0, os=macOS.
+Observed behavior: error message.",P2
+151,9,2025-12-17T22:13:01.295630+00:00,Billing Refund issue — started yesterday,"Subject: Billing Refund issue — started yesterday
+Customer reports: refund status.
+Details: started yesterday. Contact: (233)-883-3832.
+Environment: app_version=1.9.0, os=Android.
+Observed behavior: error message.",P1
+152,13,2025-12-17T22:13:01.296325+00:00,Mobile Crash issue — started yesterday,"Subject: Mobile Crash issue — started yesterday
+Customer reports: blank screen.
+Details: started yesterday. Contact: user152@gmail.com.
+Environment: app_version=1.9.0, os=macOS.
+Observed behavior: crash.",P2
+153,2,2025-12-17T22:13:01.297063+00:00,Password Reset issue — happens after the latest update,"Subject: Password Reset issue — happens after the latest update
+Customer reports: 2fa code not arriving.
+Details: happens after the latest update. Contact: (805)-528-8711.
+Environment: app_version=2.0.1, os=Windows.
+Observed behavior: unexpected logout.",P1
+154,6,2025-12-17T22:13:01.297792+00:00,Password Reset issue — only on wifi,"Subject: Password Reset issue — only on wifi
+Customer reports: locked out.
+Details: only on wifi. Contact: user154@company.com.
+Environment: app_version=1.9.0, os=iOS.
+Observed behavior: unexpected logout.",P3
+155,3,2025-12-17T22:13:01.298485+00:00,Billing Refund issue — need resolution ASAP,"Subject: Billing Refund issue — need resolution ASAP
+Customer reports: refund status.
+Details: need resolution ASAP. Contact: (874)-719-5430.
+Environment: app_version=2.0.1, os=macOS.
+Observed behavior: error message.",P3
+156,2,2025-12-17T22:13:01.299284+00:00,Password Reset issue — started yesterday,"Subject: Password Reset issue — started yesterday
+Customer reports: 2fa code not arriving.
+Details: started yesterday. Contact: (387)-809-8831.
+Environment: app_version=1.9.0, os=macOS.
+Observed behavior: timeout.",P1
+157,9,2025-12-17T22:13:01.300014+00:00,Billing Refund issue — need resolution ASAP,"Subject: Billing Refund issue — need resolution ASAP
+Customer reports: refund status.
+Details: need resolution ASAP. Contact: user157@gmail.com.
+Environment: app_version=2.0.1, os=iOS.
+Observed behavior: incorrect data.",P1
+158,18,2025-12-17T22:13:01.301854+00:00,Billing Refund issue — only on wifi,"Subject: Billing Refund issue — only on wifi
+Customer reports: refund status.
+Details: only on wifi. Contact: (253)-614-1828.
+Environment: app_version=1.9.0, os=iOS.
+Observed behavior: timeout.",P3
+159,18,2025-12-17T22:13:01.303399+00:00,Billing Refund issue — started yesterday,"Subject: Billing Refund issue — started yesterday
+Customer reports: refund status.
+Details: started yesterday. Contact: (232)-361-3728.
+Environment: app_version=1.9.0, os=Windows.
+Observed behavior: incorrect data.",P3
+160,4,2025-12-17T22:13:01.304317+00:00,Billing Refund issue — affects multiple users,"Subject: Billing Refund issue — affects multiple users
+Customer reports: duplicate charge.
+Details: affects multiple users. Contact: (973)-287-2424.
+Environment: app_version=1.8.2, os=Android.
+Observed behavior: incorrect data.",P3
+161,7,2025-12-17T22:13:01.305182+00:00,Mobile Crash issue — started yesterday,"Subject: Mobile Crash issue — started yesterday
+Customer reports: crashes on launch.
+Details: started yesterday. Contact: user161@outlook.com.
+Environment: app_version=2.0.1, os=iOS.
+Observed behavior: timeout.",P3
+162,18,2025-12-17T22:13:01.305916+00:00,Billing Refund issue — need resolution ASAP,"Subject: Billing Refund issue — need resolution ASAP
+Customer reports: refund status.
+Details: need resolution ASAP. Contact: (788)-219-4334.
+Environment: app_version=1.9.0, os=iOS.
+Observed behavior: timeout.",P1
+163,11,2025-12-17T22:13:01.306643+00:00,Password Reset issue — started yesterday,"Subject: Password Reset issue — started yesterday
+Customer reports: locked out.
+Details: started yesterday. Contact: (484)-952-3795.
+Environment: app_version=1.8.2, os=Android.
+Observed behavior: crash.",P2
+164,16,2025-12-17T22:13:01.307482+00:00,Billing Refund issue — affects multiple users,"Subject: Billing Refund issue — affects multiple users
+Customer reports: payment failed.
+Details: affects multiple users. Contact: (299)-611-6545.
+Environment: app_version=1.9.0, os=macOS.
+Observed behavior: incorrect data.",P1
+165,8,2025-12-17T22:13:01.308817+00:00,Password Reset issue — high priority,"Subject: Password Reset issue — high priority
+Customer reports: reset link expired.
+Details: high priority. Contact: (753)-881-9908.
+Environment: app_version=2.0.1, os=iOS.
+Observed behavior: timeout.",P1
+166,9,2025-12-17T22:13:01.309804+00:00,Billing Refund issue — high priority,"Subject: Billing Refund issue — high priority
+Customer reports: refund status.
+Details: high priority. Contact: user166@company.com.
+Environment: app_version=2.0.1, os=Android.
+Observed behavior: incorrect data.",P2
+167,11,2025-12-17T22:13:01.310719+00:00,Password Reset issue — high priority,"Subject: Password Reset issue — high priority
+Customer reports: locked out.
+Details: high priority. Contact: (874)-717-2787.
+Environment: app_version=1.8.2, os=macOS.
+Observed behavior: error message.",P1
+168,3,2025-12-17T22:13:01.311842+00:00,Billing Refund issue — need resolution ASAP,"Subject: Billing Refund issue — need resolution ASAP
+Customer reports: refund status.
+Details: need resolution ASAP. Contact: user168@gmail.com.
+Environment: app_version=2.0.1, os=Windows.
+Observed behavior: crash.",P2
+169,6,2025-12-17T22:13:01.312762+00:00,Password Reset issue — need resolution ASAP,"Subject: Password Reset issue — need resolution ASAP
+Customer reports: locked out.
+Details: need resolution ASAP. Contact: (324)-511-1424.
+Environment: app_version=2.0.1, os=Android.
+Observed behavior: crash.",P1
+170,19,2025-12-17T22:13:01.313703+00:00,Vpn Connect issue — affects multiple users,"Subject: Vpn Connect issue — affects multiple users
+Customer reports: disconnects frequently.
+Details: affects multiple users. Contact: (270)-363-4429.
+Environment: app_version=2.0.1, os=Android.
+Observed behavior: timeout.",P1
+171,3,2025-12-17T22:13:01.315486+00:00,Billing Refund issue — need resolution ASAP,"Subject: Billing Refund issue — need resolution ASAP
+Customer reports: refund status.
+Details: need resolution ASAP. Contact: user171@company.com.
+Environment: app_version=2.0.1, os=Windows.
+Observed behavior: incorrect data.",P2
+172,20,2025-12-17T22:13:01.316524+00:00,Password Reset issue — high priority,"Subject: Password Reset issue — high priority
+Customer reports: password rules.
+Details: high priority. Contact: user172@outlook.com.
+Environment: app_version=1.8.2, os=iOS.
+Observed behavior: unexpected logout.",P3
+173,9,2025-12-17T22:13:01.318532+00:00,Billing Refund issue — high priority,"Subject: Billing Refund issue — high priority
+Customer reports: refund status.
+Details: high priority. Contact: user173@company.com.
+Environment: app_version=1.8.2, os=Android.
+Observed behavior: incorrect data.",P1
+174,5,2025-12-17T22:13:01.320050+00:00,Data Export issue — high priority,"Subject: Data Export issue — high priority
+Customer reports: columns incorrect.
+Details: high priority. Contact: user174@company.com.
+Environment: app_version=1.8.2, os=macOS.
+Observed behavior: unexpected logout.",P1
+175,15,2025-12-17T22:13:01.321096+00:00,Vpn Connect issue — customer is angry,"Subject: Vpn Connect issue — customer is angry
+Customer reports: disconnects frequently.
+Details: customer is angry. Contact: user175@company.com.
+Environment: app_version=1.8.2, os=macOS.
+Observed behavior: incorrect data.",P1
+176,7,2025-12-17T22:13:01.321802+00:00,Mobile Crash issue — customer is angry,"Subject: Mobile Crash issue — customer is angry
+Customer reports: crashes on launch.
+Details: customer is angry. Contact: (277)-725-2828.
+Environment: app_version=1.8.2, os=Android.
+Observed behavior: timeout.",P1
+177,7,2025-12-17T22:13:01.322499+00:00,Mobile Crash issue — customer is angry,"Subject: Mobile Crash issue — customer is angry
+Customer reports: crashes on launch.
+Details: customer is angry. Contact: (297)-209-4983.
+Environment: app_version=1.8.2, os=Windows.
+Observed behavior: unexpected logout.",P2
+178,14,2025-12-17T22:13:01.323361+00:00,Mobile Crash issue — only on wifi,"Subject: Mobile Crash issue — only on wifi
+Customer reports: battery drain.
+Details: only on wifi. Contact: (631)-658-8932.
+Environment: app_version=2.0.1, os=Windows.
+Observed behavior: timeout.",P3
+179,15,2025-12-17T22:13:01.324126+00:00,Vpn Connect issue — affects multiple users,"Subject: Vpn Connect issue — affects multiple users
+Customer reports: disconnects frequently.
+Details: affects multiple users. Contact: (881)-644-2453.
+Environment: app_version=1.8.2, os=Windows.
+Observed behavior: timeout.",P3
+180,18,2025-12-17T22:13:01.324931+00:00,Billing Refund issue — happens after the latest update,"Subject: Billing Refund issue — happens after the latest update
+Customer reports: refund status.
+Details: happens after the latest update. Contact: user180@outlook.com.
+Environment: app_version=1.8.2, os=iOS.
+Observed behavior: timeout.",P3
+181,3,2025-12-17T22:13:01.325629+00:00,Billing Refund issue — only on wifi,"Subject: Billing Refund issue — only on wifi
+Customer reports: refund status.
+Details: only on wifi. Contact: (229)-640-4998.
+Environment: app_version=2.0.1, os=iOS.
+Observed behavior: unexpected logout.",P2
+182,2,2025-12-17T22:13:01.326417+00:00,Password Reset issue — need resolution ASAP,"Subject: Password Reset issue — need resolution ASAP
+Customer reports: 2fa code not arriving.
+Details: need resolution ASAP. Contact: (650)-890-6148.
+Environment: app_version=2.0.1, os=Android.
+Observed behavior: timeout.",P1
+183,20,2025-12-17T22:13:01.328078+00:00,Password Reset issue — affects multiple users,"Subject: Password Reset issue — affects multiple users
+Customer reports: password rules.
+Details: affects multiple users. Contact: user183@outlook.com.
+Environment: app_version=2.0.1, os=Android.
+Observed behavior: unexpected logout.",P3
+184,15,2025-12-17T22:13:01.329423+00:00,Vpn Connect issue — affects multiple users,"Subject: Vpn Connect issue — affects multiple users
+Customer reports: disconnects frequently.
+Details: affects multiple users. Contact: user184@company.com.
+Environment: app_version=2.0.1, os=iOS.
+Observed behavior: crash.",P3
+185,12,2025-12-17T22:13:01.330674+00:00,Billing Refund issue — happens after the latest update,"Subject: Billing Refund issue — happens after the latest update
+Customer reports: update card.
+Details: happens after the latest update. Contact: user185@gmail.com.
+Environment: app_version=1.8.2, os=Android.
+Observed behavior: unexpected logout.",P2
+186,10,2025-12-17T22:13:01.332039+00:00,Sso Setup issue — need resolution ASAP,"Subject: Sso Setup issue — need resolution ASAP
+Customer reports: redirect loop.
+Details: need resolution ASAP. Contact: (555)-558-8690.
+Environment: app_version=2.0.1, os=Android.
+Observed behavior: incorrect data.",P2
+187,3,2025-12-17T22:13:01.333503+00:00,Billing Refund issue — only on wifi,"Subject: Billing Refund issue — only on wifi
+Customer reports: refund status.
+Details: only on wifi. Contact: (483)-920-5946.
+Environment: app_version=1.9.0, os=iOS.
+Observed behavior: crash.",P1
+188,17,2025-12-17T22:13:01.334782+00:00,Vpn Connect issue — need resolution ASAP,"Subject: Vpn Connect issue — need resolution ASAP
+Customer reports: split tunneling.
+Details: need resolution ASAP. Contact: (618)-710-2299.
+Environment: app_version=1.9.0, os=iOS.
+Observed behavior: unexpected logout.",P3
+189,6,2025-12-17T22:13:01.336098+00:00,Password Reset issue — happens after the latest update,"Subject: Password Reset issue — happens after the latest update
+Customer reports: locked out.
+Details: happens after the latest update. Contact: user189@gmail.com.
+Environment: app_version=1.8.2, os=macOS.
+Observed behavior: timeout.",P1
+190,16,2025-12-17T22:13:01.337316+00:00,Billing Refund issue — started yesterday,"Subject: Billing Refund issue — started yesterday
+Customer reports: payment failed.
+Details: started yesterday. Contact: user190@company.com.
+Environment: app_version=1.8.2, os=Android.
+Observed behavior: timeout.",P2
+191,1,2025-12-17T22:13:01.338513+00:00,Data Export issue — need resolution ASAP,"Subject: Data Export issue — need resolution ASAP
+Customer reports: csv export missing rows.
+Details: need resolution ASAP. Contact: (949)-275-8600.
+Environment: app_version=1.8.2, os=Android.
+Observed behavior: unexpected logout.",P3
+192,19,2025-12-17T22:13:01.340203+00:00,Vpn Connect issue — affects multiple users,"Subject: Vpn Connect issue — affects multiple users
+Customer reports: disconnects frequently.
+Details: affects multiple users. Contact: (309)-949-4177.
+Environment: app_version=2.0.1, os=macOS.
+Observed behavior: error message.",P2
+193,2,2025-12-17T22:13:01.341464+00:00,Password Reset issue — need resolution ASAP,"Subject: Password Reset issue — need resolution ASAP
+Customer reports: 2fa code not arriving.
+Details: need resolution ASAP. Contact: (721)-410-5326.
+Environment: app_version=1.9.0, os=Windows.
+Observed behavior: unexpected logout.",P1
+194,6,2025-12-17T22:13:01.342709+00:00,Password Reset issue — affects multiple users,"Subject: Password Reset issue — affects multiple users
+Customer reports: locked out.
+Details: affects multiple users. Contact: user194@outlook.com.
+Environment: app_version=2.0.1, os=Android.
+Observed behavior: incorrect data.",P2
+195,19,2025-12-17T22:13:01.364549+00:00,Vpn Connect issue — started yesterday,"Subject: Vpn Connect issue — started yesterday
+Customer reports: disconnects frequently.
+Details: started yesterday. Contact: (349)-940-5226.
+Environment: app_version=2.0.1, os=Android.
+Observed behavior: unexpected logout.",P1
+196,16,2025-12-17T22:13:01.366512+00:00,Billing Refund issue — happens after the latest update,"Subject: Billing Refund issue — happens after the latest update
+Customer reports: payment failed.
+Details: happens after the latest update. Contact: user196@gmail.com.
+Environment: app_version=1.8.2, os=Android.
+Observed behavior: crash.",P3
+197,6,2025-12-17T22:13:01.367818+00:00,Password Reset issue — only on wifi,"Subject: Password Reset issue — only on wifi
+Customer reports: locked out.
+Details: only on wifi. Contact: (788)-578-8806.
+Environment: app_version=1.9.0, os=Windows.
+Observed behavior: incorrect data.",P2
+198,5,2025-12-17T22:13:01.368597+00:00,Data Export issue — affects multiple users,"Subject: Data Export issue — affects multiple users
+Customer reports: columns incorrect.
+Details: affects multiple users. Contact: user198@company.com.
+Environment: app_version=1.9.0, os=iOS.
+Observed behavior: error message.",P2
+199,6,2025-12-17T22:13:01.369572+00:00,Password Reset issue — only on wifi,"Subject: Password Reset issue — only on wifi
+Customer reports: locked out.
+Details: only on wifi. Contact: user199@outlook.com.
+Environment: app_version=2.0.1, os=Windows.
+Observed behavior: incorrect data.",P1
+200,5,2025-12-17T22:13:01.370198+00:00,Data Export issue — affects multiple users,"Subject: Data Export issue — affects multiple users
+Customer reports: columns incorrect.
+Details: affects multiple users. Contact: (377)-694-9707.
+Environment: app_version=1.9.0, os=Android.
+Observed behavior: timeout.",P2
