@@ -1,0 +1,129 @@
+{
+  "dataset": "daily_orders",
+  "report_date": "2025-12-17",
+  "row_count": 500,
+  "col_count": 9,
+  "health_score": 46,
+  "rules": [
+    {
+      "name": "schema_columns_present",
+      "passed": true,
+      "details": "missing=[] extra=[]"
+    },
+    {
+      "name": "unique:order_id",
+      "passed": true,
+      "details": "duplicates=0"
+    },
+    {
+      "name": "non_null:order_id,order_date,customer_id,channel,order_value",
+      "passed": true,
+      "details": "nulls={'order_id': 0, 'order_date': 0, 'customer_id': 0, 'channel': 0, 'order_value': 0}"
+    },
+    {
+      "name": "range:items",
+      "passed": false,
+      "details": "out_of_range_or_null=2"
+    },
+    {
+      "name": "range:order_value",
+      "passed": true,
+      "details": "out_of_range_or_null=0"
+    },
+    {
+      "name": "range:discount",
+      "passed": false,
+      "details": "out_of_range_or_null=16"
+    },
+    {
+      "name": "rate_max:is_return",
+      "passed": true,
+      "details": "rate=0.0740 max=0.2500"
+    }
+  ],
+  "drift": [
+    {
+      "column": "items",
+      "type": "numeric",
+      "p_value": 1.1026334179002954e-08,
+      "drifted": true,
+      "notes": "KS=0.1469"
+    },
+    {
+      "column": "order_value",
+      "type": "numeric",
+      "p_value": 0.07358562517077712,
+      "drifted": false,
+      "notes": "KS=0.0611"
+    },
+    {
+      "column": "discount",
+      "type": "numeric",
+      "p_value": 2.778399462920542e-10,
+      "drifted": true,
+      "notes": "KS=0.1627"
+    },
+    {
+      "column": "channel",
+      "type": "categorical",
+      "p_value": 0.005254648399292348,
+      "drifted": true,
+      "notes": "chi2=12.73 dof=3"
+    },
+    {
+      "column": "country",
+      "type": "categorical",
+      "p_value": 0.5388403998907114,
+      "drifted": false,
+      "notes": "chi2=3.11 dof=4"
+    }
+  ],
+  "anomalies": [
+    {
+      "metric": "rows",
+      "value": 500.0,
+      "is_anomaly": false,
+      "context": "model_score=0.0572 (shared across metrics for this run)"
+    },
+    {
+      "metric": "null_rate_discount",
+      "value": 0.032,
+      "is_anomaly": false,
+      "context": "model_score=0.0572 (shared across metrics for this run)"
+    },
+    {
+      "metric": "avg_order_value",
+      "value": 47.096231,
+      "is_anomaly": false,
+      "context": "model_score=0.0572 (shared across metrics for this run)"
+    },
+    {
+      "metric": "p95_order_value",
+      "value": 98.420985,
+      "is_anomaly": false,
+      "context": "model_score=0.0572 (shared across metrics for this run)"
+    },
+    {
+      "metric": "return_rate",
+      "value": 0.074,
+      "is_anomaly": false,
+      "context": "model_score=0.0572 (shared across metrics for this run)"
+    },
+    {
+      "metric": "mobile_share",
+      "value": 0.424,
+      "is_anomaly": false,
+      "context": "model_score=0.0572 (shared across metrics for this run)"
+    },
+    {
+      "metric": "items_mean",
+      "value": 3.686,
+      "is_anomaly": false,
+      "context": "model_score=0.0572 (shared across metrics for this run)"
+    }
+  ],
+  "actions": [
+    "Fix failing rule checks first (schema/range/null/uniqueness) \u2014 these usually indicate pipeline defects.",
+    "Investigate drifted columns: check upstream sources, product changes, pricing/promo flags, or traffic/channel mix shifts."
+  ]
+}
