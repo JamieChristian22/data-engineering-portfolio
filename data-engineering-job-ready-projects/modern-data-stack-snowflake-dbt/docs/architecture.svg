@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500">
+  <rect x="40" y="40" width="220" height="80" stroke="black" fill="white"/>
+  <text x="60" y="80" font-size="14">Raw CSV Sources</text>
+
+  <rect x="320" y="40" width="260" height="80" stroke="black" fill="white"/>
+  <text x="340" y="70" font-size="14">Snowflake RAW Schema</text>
+  <text x="340" y="90" font-size="12">customers_raw, orders_raw...</text>
+
+  <rect x="320" y="160" width="260" height="90" stroke="black" fill="white"/>
+  <text x="340" y="200" font-size="14">dbt Staging + Intermediate</text>
+  <text x="340" y="220" font-size="12">stg_*, int_* models</text>
+
+  <rect x="320" y="300" width="260" height="90" stroke="black" fill="white"/>
+  <text x="340" y="340" font-size="14">Analytics Marts</text>
+  <text x="340" y="360" font-size="12">fct_orders, dim_customer...</text>
+
+  <rect x="640" y="300" width="200" height="90" stroke="black" fill="white"/>
+  <text x="660" y="340" font-size="14">BI / Stakeholders</text>
+  <text x="660" y="360" font-size="12">Power BI / Tableau</text>
+
+  <line x1="260" y1="80" x2="320" y2="80" stroke="black"/>
+  <line x1="450" y1="120" x2="450" y2="160" stroke="black"/>
+  <line x1="450" y1="250" x2="450" y2="300" stroke="black"/>
+  <line x1="580" y1="345" x2="640" y2="345" stroke="black"/>
+</svg>
