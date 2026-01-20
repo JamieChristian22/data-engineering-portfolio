@@ -76,12 +76,6 @@ Use `dbt/analysis/example_stakeholder_queries.sql` as a live demo script in inte
 
 ---
 
-## Why This Is “10/10” for Recruiters
-- Clear layered modeling (raw → staging → intermediate → marts)
-- Test suite with relationships & business rules
-- SCD2 snapshot pattern included
-- BI-ready star schema for dashboards
-- Data volumes large enough to feel realistic but still fast to run locally
 
 ---
 
@@ -91,7 +85,7 @@ Use `dbt/analysis/example_stakeholder_queries.sql` as a live demo script in inte
 
 ---
 
-## 11/10 Enhancements Added
+## Enhancements Added
 
 This project now goes beyond typical portfolio examples by including:
 
@@ -126,7 +120,7 @@ This document walks through:
 - Data modeling approach
 - Testing & governance
 - Stakeholder impact
-- Interview-ready talking points
+
 
 This makes the project usable not just as code, but as a **complete portfolio artifact**.
 
