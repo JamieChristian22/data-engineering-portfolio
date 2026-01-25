@@ -1,7 +1,0 @@
-flowchart LR
-  A[Raw CSV Extracts] --> B[Python Loader]
-  B --> C[(Postgres Raw Schema)]
-  C --> D[dbt Staging Models]
-  D --> E[dbt Marts / Star Schema]
-  E --> F[Analytics Queries]
-  F --> G[KPI Outputs CSV]

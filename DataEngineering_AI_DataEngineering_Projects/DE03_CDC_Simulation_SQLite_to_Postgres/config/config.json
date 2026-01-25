@@ -1,6 +1,0 @@
-{
-  "sqlite_path": "source/app.db",
-  "duckdb_path": "warehouse/warehouse.duckdb",
-  "checkpoint_file": "state/checkpoint.json",
-  "report_file": "outputs/replication_report.json"
-}
