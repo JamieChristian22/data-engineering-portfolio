@@ -1,7 +1,0 @@
-{
-  "raw_path": "data/raw_usage.csv",
-  "features_path": "data/features.parquet",
-  "model_path": "artifacts/model.joblib",
-  "predictions_path": "outputs/batch_predictions.csv",
-  "drift_report_path": "outputs/drift_report.json"
-}
