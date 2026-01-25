@@ -1,0 +1,7 @@
+{
+  "docs_dir": "data/docs",
+  "index_path": "index/vector_index.sqlite",
+  "chunk_size": 400,
+  "chunk_overlap": 60,
+  "topk_default": 5
+}
