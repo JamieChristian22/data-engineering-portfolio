@@ -1,2 +1,0 @@
-roc_auc=1.0000
-avg_precision=1.0000
