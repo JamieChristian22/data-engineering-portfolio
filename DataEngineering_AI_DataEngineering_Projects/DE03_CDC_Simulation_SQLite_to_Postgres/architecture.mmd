@@ -1,0 +1,6 @@
+flowchart LR
+  A[SQLite App DB] --> B[CDC Log Table]
+  B --> C[Replication Script]
+  C --> D[(DuckDB/Postgres Warehouse)]
+  D --> E[dim_user & fct_subscription]
+  E --> F[Replication Report]

@@ -1,0 +1,19 @@
+name: dbt_retail
+version: 1.0.0
+config-version: 2
+
+profile: dbt_retail
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+analysis-paths: ["analysis"]
+macro-paths: ["macros"]
+
+models:
+  dbt_retail:
+    +materialized: view
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
