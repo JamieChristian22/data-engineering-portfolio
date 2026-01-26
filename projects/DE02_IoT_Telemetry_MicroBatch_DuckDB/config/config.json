@@ -1,0 +1,6 @@
+{
+  "landing_dir": "data/landing",
+  "curated_dir": "data/curated",
+  "state_file": "state/processed_files.json",
+  "run_log": "outputs/etl_run_log.json"
+}

@@ -1,0 +1,7 @@
+flowchart LR
+  A[Raw Usage Events] --> B[DuckDB Feature SQL]
+  B --> C[Feature Table]
+  C --> D[Model Training]
+  D --> E[Batch Scoring]
+  E --> F[Predictions CSV]
+  F --> G[Drift Monitoring]

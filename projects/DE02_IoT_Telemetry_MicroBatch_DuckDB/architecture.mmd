@@ -1,0 +1,6 @@
+flowchart LR
+  A[JSONL Telemetry Files] --> B[Microbatch ETL]
+  B --> C[Validation & Deduplication]
+  C --> D[(DuckDB In-Memory)]
+  D --> E[Parquet Curated Tables]
+  E --> F[Rollups & Aggregations]

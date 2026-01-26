@@ -1,0 +1,6 @@
+flowchart LR
+  A[Transaction CSV] --> B[Preprocessing]
+  B --> C[IsolationForest Model]
+  C --> D[Scoring Pipeline]
+  D --> E[Anomaly Scores]
+  E --> F[Alerts & Monitoring]
