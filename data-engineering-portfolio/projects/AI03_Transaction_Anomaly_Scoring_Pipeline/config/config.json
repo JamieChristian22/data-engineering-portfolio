@@ -1,7 +1,0 @@
-{
-  "transactions_path": "data/transactions.csv",
-  "model_path": "artifacts/anomaly_model.joblib",
-  "scores_path": "outputs/anomaly_scores.csv",
-  "monitor_report_path": "outputs/pipeline_monitor_report.json",
-  "alert_threshold": 0.8
-}
