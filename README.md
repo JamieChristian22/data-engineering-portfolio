@@ -1,64 +1,168 @@
-# Data Engineering + AI Data Engineering Portfolio (7 Real-World Projects)
+# 🚀 Data Engineering Portfolio
 
-This package contains:
-- **4 Data Engineering pipeline projects** (batch, ELT, CDC-simulation, data quality/observability)
-- **3 AI Data Engineering projects** (vector search ingestion, feature pipeline + training + monitoring, anomaly scoring + drift)
+![Python](https://img.shields.io/badge/Python-Expert-blue)
+![SQL](https://img.shields.io/badge/SQL-Advanced-informational)
+![dbt](https://img.shields.io/badge/dbt-Analytics-orange)
+![Git](https://img.shields.io/badge/Git-Version_Control-black) ![GitHub
+Actions](https://img.shields.io/badge/CI-GitHub_Actions-success)
+![Testing](https://img.shields.io/badge/Testing-pytest%20%7C%20dbt_tests-brightgreen)
 
-All projects are **fully filled-in** (code + SQL + sample data + run steps).  
-They’re designed to be runnable locally using **Python + SQL + DuckDB/Postgres + Docker** (optional), and include **tests + CI**.
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-Cloud-blue?logo=googlecloud&logoColor=white)
+![Snowflake](https://img.shields.io/badge/Snowflake-Data_Platform-29B5E8?logo=snowflake&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue?logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Containers-2496ED?logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-Environment-black?logo=linux&logoColor=white)
 
-> Date: 2026-01-25
 
----
+------------------------------------------------------------------------
 
-## Projects
+## 📌 Overview
 
-### Data Engineering (4)
-1. **DE01_Retail_Orders_ELT_dbt_Postgres**
-   - ELT into Postgres warehouse + dbt models (staging → marts), incremental loads, SCD Type 2 dim_customer
-2. **DE02_IoT_Telemetry_MicroBatch_DuckDB**
-   - Micro-batch ingestion of JSON telemetry, aggregations, parquet outputs, late-arrival handling
-3. **DE03_CDC_Simulation_SQLite_to_Postgres**
-   - Simulated CDC (append-only change log) from SQLite app DB into Postgres warehouse with idempotent upserts
-4. **DE04_Data_Quality_Observability_Reports**
-   - Data quality checks, anomaly thresholds, freshness checks, and HTML/JSON reporting + pytest
+Welcome to my **Data Engineering Portfolio**.
 
-### AI Data Engineering (3)
-5. **AI01_Document_Ingestion_Vector_Index**
-   - Chunking + metadata + vector indexing (HashingVectorizer) into SQLite, fast semantic-ish search (cosine)
-6. **AI02_Churn_Feature_Pipeline_Training_Monitoring**
-   - Feature engineering, train model (sklearn), batch scoring, drift checks (KS test), metrics logs
-7. **AI03_Transaction_Anomaly_Scoring_Pipeline**
-   - IsolationForest anomaly scoring, scheduled batch scoring, alert rules, drift & stability monitoring
+This repository showcases **real-world, job-ready data engineering
+projects** designed to simulate how modern data platforms are built and
+maintained in production environments.
 
----
+Rather than isolated scripts or notebooks, these projects emphasize: -
+Pipeline structure\
+- Data modeling logic\
+- Validation and testing\
+- Reproducibility\
+- Engineering best practices
 
-## Common Tooling
+> This portfolio is intentionally designed to reflect how data
+> engineering work looks in real companies.
 
-### Python setup (recommended)
-From the package root:
+------------------------------------------------------------------------
 
-```bash
-python -m venv .venv
-source .venv/bin/activate  # (Windows: .venv\Scripts\activate)
+## 🧠 Skills Demonstrated
+
+-   Python for data pipelines and automation\
+-   SQL for analytics engineering\
+-   dbt (models, tests, analytics engineering patterns)\
+-   Data modeling (staging, marts, star schemas)\
+-   Incremental loading & SCD2 strategies\
+-   Data quality validation (schema, nulls, uniqueness, freshness)\
+-   Modular project structuring\
+-   Reproducible environments (`requirements.txt`)\
+-   Version control workflows (Git/GitHub)
+
+------------------------------------------------------------------------
+
+## 📂 Repository Structure
+
+    data-engineering-portfolio/
+    │
+    ├── projects/              # Portfolio projects
+    │   ├── project_01/
+    │   ├── project_02/
+    │   └── ...
+    │
+    ├── assets/
+    │   └── diagrams/
+    │       └── hero-architecture.png
+    │
+    ├── shared/                # Shared utilities/helpers
+    ├── run_demo_all.sh        # Run pipelines locally
+    ├── requirements.txt       # Python dependencies
+    └── README.md              # You are here
+
+Each project typically includes: - A project-specific README\
+- Clear problem statement\
+- Pipeline logic\
+- Sample datasets\
+- Outputs\
+- Validation logic\
+- Real-world framing
+
+------------------------------------------------------------------------
+
+## ⚙️ Quickstart (Run Locally)
+
+You can run the portfolio locally:
+
+``` bash
+# Clone repository
+git clone https://github.com/JamieChristian22/data-engineering-portfolio.git
+cd data-engineering-portfolio
+
+# Create environment
+python -m venv venv
+source venv/bin/activate  # Mac/Linux
+venv\Scripts\activate     # Windows
+
+# Install dependencies
 pip install -r requirements.txt
+
+# Run demo pipelines
+bash run_demo_all.sh
 ```
 
-### Optional: Docker Postgres
-Several projects include a `docker-compose.yml` you can run:
+This simulates: - Ingestion\
+- Transformations\
+- Data modeling\
+- Validation\
+- Analytics outputs
 
-```bash
-docker compose up -d
-```
+------------------------------------------------------------------------
 
----
+## 📊 Concepts Covered Across Projects
 
-## Quality & CI
-A ready-to-use GitHub Actions workflow is included in `.github/workflows/ci.yml` to run:
-- unit tests (`pytest`)
-- linting (`ruff`) if installed
+Projects across this portfolio demonstrate experience with:
 
----
+-   Batch data pipelines\
+-   Streaming & micro-batch simulation\
+-   Change Data Capture (CDC-style logic)\
+-   Raw → Staging → Analytics layers\
+-   Incremental models\
+-   Slowly Changing Dimensions (SCD2)\
+-   Business-ready data marts\
+-   Data quality testing\
+-   Reproducible workflows
 
-## License
-MIT — use freely in portfolios and interviews.
+------------------------------------------------------------------------
+
+## 🎯 Purpose of This Portfolio
+
+Many portfolios only show dashboards or notebooks.
+
+This portfolio focuses on: \> How data moves, transforms, scales,
+breaks, and gets validated in real systems.
+
+It is designed to support roles such as: - Data Engineer\
+- Analytics Engineer\
+- Analytics-focused Data Analyst\
+- BI Engineer\
+- Modern analytics stack roles
+
+------------------------------------------------------------------------
+
+## 👤 About Me
+
+**Jamie Christian**\
+Data-focused professional building realistic, job-ready portfolios
+across:
+
+-   Data Engineering\
+-   Data Analytics\
+-   Financial Analytics\
+-   Product Analytics\
+-   Cloud Architecture
+
+🔗 LinkedIn: https://www.linkedin.com/in/jamiechristian2\
+🔗 GitHub: https://github.com/JamieChristian22
+
+------------------------------------------------------------------------
+
+## ⭐ For Recruiters & Hiring Managers
+
+If you're reviewing this repository:
+
+-   Browse the `/projects` folder\
+-   Review the code and structure\
+-   Explore project READMEs\
+-   Feel free to connect via LinkedIn
+
+This portfolio is actively maintained and expanded.
