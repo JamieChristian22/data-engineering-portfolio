@@ -1,0 +1,36 @@
+name: Feature request
+description: Suggest an improvement to data pipelines, models, testing, or educational documentation
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggestions should focus on safe, reproducible educational use cases. Implementation is not guaranteed.
+  - type: input
+    id: area
+    attributes:
+      label: Project or topic
+      placeholder: "Python pipeline, SQL, dbt, data quality, orchestration, cloud platform..."
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or learning need
+      description: Describe the existing limitation or opportunity.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+      description: Explain the suggested change and why it would be valuable.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Testing, data, and maintenance considerations
+      description: Suggest synthetic data, validation checks, and any notable risks.
+    validations:
+      required: false
