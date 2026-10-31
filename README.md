@@ -14,6 +14,8 @@ Actions](https://img.shields.io/badge/CI-GitHub_Actions-success)
 ![Docker](https://img.shields.io/badge/Docker-Containers-2496ED?logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-Environment-black?logo=linux&logoColor=white)
 
+[![Sponsor this project](https://img.shields.io/badge/Sponsor%20this%20project-GitHub%20Sponsors-EA4AAA?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/JamieChristian22)
+
 
 ------------------------------------------------------------------------
 
@@ -166,3 +168,14 @@ If you're reviewing this repository:
 -   Feel free to connect via LinkedIn
 
 This portfolio is actively maintained and expanded.
+
+------------------------------------------------------------------------
+
+## 💖 Support This Project
+
+If the Python, SQL, dbt, data modeling, and data pipeline examples in this portfolio have been useful, you can [support independent development through GitHub Sponsors](https://github.com/sponsors/JamieChristian22).
+
+[![Become a GitHub Sponsor](https://img.shields.io/badge/Become%20a-GitHub%20Sponsor-EA4AAA?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/JamieChristian22)
+
+Sponsorship is completely optional and helps sustain educational datasets, documentation, testing, maintenance, and future improvements. You can also support this work by starring the repository, sharing it, or submitting reproducible issues and contributions. Sponsorship does not guarantee feature implementation or changes to technical findings.
+
