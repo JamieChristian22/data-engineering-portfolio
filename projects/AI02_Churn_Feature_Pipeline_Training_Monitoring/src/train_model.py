@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.compose import ColumnTransformer
-from sklearn.preprocessing import OneHotEncoder
+from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.pipeline import Pipeline
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import roc_auc_score, accuracy_score, classification_report
@@ -28,10 +28,11 @@ def main() -> None:
 
     pre = ColumnTransformer([
         ("cat", OneHotEncoder(handle_unknown="ignore"), cat),
-        ("num", "passthrough", num),
+        ("num", StandardScaler(), num),
     ])
 
-    clf = LogisticRegression(max_iter=500, n_jobs=1)
+    # Scale numerical features with different units to aid stable optimization.
+    clf = LogisticRegression(max_iter=1000, solver="lbfgs")
 
     pipe = Pipeline([("pre", pre), ("clf", clf)])
 
