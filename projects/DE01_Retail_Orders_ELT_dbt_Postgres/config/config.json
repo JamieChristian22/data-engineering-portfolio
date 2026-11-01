@@ -3,8 +3,7 @@
     "host": "localhost",
     "port": 5432,
     "database": "retail_dw",
-    "user": "retail",
-    "password": "retail"
+    "user": "retail"
   },
   "schemas": {
     "raw": "raw",
