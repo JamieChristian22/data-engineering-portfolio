@@ -100,7 +100,7 @@ def main() -> None:
     con.execute("""CREATE OR REPLACE TABLE rollups AS
       SELECT
         device_id,
-        date_bin(INTERVAL '5 minutes', event_time_utc, TIMESTAMP '2025-01-01') AS window_start,
+        time_bucket(INTERVAL '5 minutes', event_time_utc) AS window_start,
         COUNT(*) AS event_count,
         AVG(temperature_c) AS avg_temp_c,
         MAX(vibration_rms) AS max_vibration,
