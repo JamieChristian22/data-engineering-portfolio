@@ -1,10 +1,13 @@
 [project]
 name = "de-ai-projects"
-version = "1.0.0"
+version = "1.1.0"
 requires-python = ">=3.10"
+description = "Offline reproducible data engineering and AI pipeline demonstrations"
 
 [tool.pytest.ini_options]
-testpaths = ["tests"]
+pythonpath = ["."]
+testpaths = ["tests", "projects"]
+addopts = "-ra"
 
 [tool.ruff]
 line-length = 110
