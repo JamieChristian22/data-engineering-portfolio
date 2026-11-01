@@ -1,181 +1,91 @@
-# 🚀 Data Engineering Portfolio
+# Data Engineering & AI Pipeline Portfolio
 
-![Python](https://img.shields.io/badge/Python-Expert-blue)
-![SQL](https://img.shields.io/badge/SQL-Advanced-informational)
-![dbt](https://img.shields.io/badge/dbt-Analytics-orange)
-![Git](https://img.shields.io/badge/Git-Version_Control-black) ![GitHub
-Actions](https://img.shields.io/badge/CI-GitHub_Actions-success)
-![Testing](https://img.shields.io/badge/Testing-pytest%20%7C%20dbt_tests-brightgreen)
+**Python · SQL · DuckDB · PostgreSQL · dbt · Data Quality · Machine Learning**
 
-![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-Cloud-blue?logo=googlecloud&logoColor=white)
-![Snowflake](https://img.shields.io/badge/Snowflake-Data_Platform-29B5E8?logo=snowflake&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue?logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-Containers-2496ED?logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-Environment-black?logo=linux&logoColor=white)
+[![Data pipeline CI](https://github.com/JamieChristian22/data-engineering-portfolio/actions/workflows/data-pipelines.yml/badge.svg)](https://github.com/JamieChristian22/data-engineering-portfolio/actions/workflows/data-pipelines.yml)
+![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB?logo=python)
+![Offline labs](https://img.shields.io/badge/Offline_demo-6_projects-146A77)
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-GitHub_Sponsors-EA4AAA?logo=githubsponsors)](https://github.com/sponsors/JamieChristian22)
 
-[![Sponsor this project](https://img.shields.io/badge/Sponsor%20this%20project-GitHub%20Sponsors-EA4AAA?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/JamieChristian22)
+A hands-on portfolio demonstrating the design, execution and validation of simulated data pipelines: from raw data ingestion to transformation, quality controls, feature engineering and monitoring.
 
+**Evidence boundary:** All examples use synthetic, generated or modeled data. Passing local tests is evidence of scripted behavior, **not** production cloud deployment, real business impact, or accuracy on unseen real-world datasets.
 
-------------------------------------------------------------------------
+## Start here
 
-## 📌 Overview
+| What to inspect | Link | Why |
+|---|---|---|
+| Offline six-pipeline runner | [run_demo_all.sh](run_demo_all.sh) | Single reproducible command, safe to launch from another directory |
+| Validation evidence | [scripts/verify_outputs.py](scripts/verify_outputs.py) | Requires actual JSON output from each pipeline and summarizes results |
+| Interactive pipeline explorer | [demo/pipeline-explorer.html](demo/pipeline-explorer.html) | Load a local validation JSON and explore project statuses |
+| Automated CI | [.github/workflows/data-pipelines.yml](.github/workflows/data-pipelines.yml) | Tests, real demo execution and secret scanning |
+| Project source index | [projects/README.md](projects/README.md) | Seven documented projects, six executable without cloud or database accounts |
+| Quality and security notes | [docs/UPGRADE-VALIDATION.md](docs/UPGRADE-VALIDATION.md) | Scope, evidence limits and validation commands |
 
-Welcome to my **Data Engineering Portfolio**.
+## Project index
 
-This repository showcases **real-world, job-ready data engineering
-projects** designed to simulate how modern data platforms are built and
-maintained in production environments.
+| ID | Project | Offline demo | Key outputs |
+|---|---|---|---|
+| [DE01](projects/DE01_Retail_Orders_ELT_dbt_Postgres/) | Retail Orders ELT / Postgres / dbt | Separate setup required | dbt models, KPI exports |
+| [DE02](projects/DE02_IoT_Telemetry_MicroBatch_DuckDB/) | IoT Micro-Batch / Parquet | Yes | Curated events, device rollups |
+| [DE03](projects/DE03_CDC_Simulation_SQLite_to_Postgres/) | CDC / SQLite → DuckDB | Yes | Warehouse tables, checkpoint |
+| [DE04](projects/DE04_Data_Quality_Observability_Reports/) | Data Quality & Observability | Yes | JSON/HTML quality results |
+| [AI01](projects/AI01_Document_Ingestion_Vector_Index/) | Document Vector Search | Yes | Local index, query results |
+| [AI02](projects/AI02_Churn_Feature_Pipeline_Training_Monitoring/) | Churn Features and Model Monitoring | Yes | Model scores, drift report |
+| [AI03](projects/AI03_Transaction_Anomaly_Scoring_Pipeline/) | Transaction Anomaly Detection | Yes | Scored transactions, alert monitoring |
 
-Rather than isolated scripts or notebooks, these projects emphasize: -
-Pipeline structure\
-- Data modeling logic\
-- Validation and testing\
-- Reproducibility\
-- Engineering best practices
+## Quickstart — no cloud credentials
 
-> This portfolio is intentionally designed to reflect how data
-> engineering work looks in real companies.
+Requires Python 3.11, Bash, and internet access to install the initial Python dependencies.
 
-------------------------------------------------------------------------
-
-## 🧠 Skills Demonstrated
-
--   Python for data pipelines and automation\
--   SQL for analytics engineering\
--   dbt (models, tests, analytics engineering patterns)\
--   Data modeling (staging, marts, star schemas)\
--   Incremental loading & SCD2 strategies\
--   Data quality validation (schema, nulls, uniqueness, freshness)\
--   Modular project structuring\
--   Reproducible environments (`requirements.txt`)\
--   Version control workflows (Git/GitHub)
-
-------------------------------------------------------------------------
-
-## 📂 Repository Structure
-
-    data-engineering-portfolio/
-    │
-    ├── projects/              # Portfolio projects
-    │   ├── project_01/
-    │   ├── project_02/
-    │   └── ...
-    │
-    ├── assets/
-    │   └── diagrams/
-    │       └── hero-architecture.png
-    │
-    ├── shared/                # Shared utilities/helpers
-    ├── run_demo_all.sh        # Run pipelines locally
-    ├── requirements.txt       # Python dependencies
-    └── README.md              # You are here
-
-Each project typically includes: - A project-specific README\
-- Clear problem statement\
-- Pipeline logic\
-- Sample datasets\
-- Outputs\
-- Validation logic\
-- Real-world framing
-
-------------------------------------------------------------------------
-
-## ⚙️ Quickstart (Run Locally)
-
-You can run the portfolio locally:
-
-``` bash
-# Clone repository
+```bash
 git clone https://github.com/JamieChristian22/data-engineering-portfolio.git
 cd data-engineering-portfolio
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
 
-# Create environment
-python -m venv venv
-source venv/bin/activate  # Mac/Linux
-venv\Scripts\activate     # Windows
+# Show offline options (DE01 needs a separate local database)
+bash run_demo_all.sh --list
 
-# Install dependencies
-pip install -r requirements.txt
-
-# Run demo pipelines
+# Run all six offline demos
 bash run_demo_all.sh
+
+# Check output contracts and generate real evidence
+python scripts/verify_outputs.py --output demo/latest-run.json
+
+# Unit/regression and generated-artifact checks
+python -m pytest -q
 ```
 
-This simulates: - Ingestion\
-- Transformations\
-- Data modeling\
-- Validation\
-- Analytics outputs
+On Windows, use a Bash-compatible terminal for the runner and `.venv\Scripts\activate` to enable the environment in PowerShell. Python's `PYTHONPATH` is exported automatically by the Bash runner.
 
-------------------------------------------------------------------------
+Run a single project: `bash run_demo_all.sh --only DE04`, or repeat `--only` for multiple projects. The runner resolves its repository location automatically; you do not need to run it from the root.
 
-## 📊 Concepts Covered Across Projects
+### Interactive proof of execution
 
-Projects across this portfolio demonstrate experience with:
+Open [demo/pipeline-explorer.html](demo/pipeline-explorer.html) locally in a browser and choose `demo/latest-run.json` using the file picker. The app works without a server or API and displays the validation results **only after** you load your locally generated report. No data is transmitted.
 
--   Batch data pipelines\
--   Streaming & micro-batch simulation\
--   Change Data Capture (CDC-style logic)\
--   Raw → Staging → Analytics layers\
--   Incremental models\
--   Slowly Changing Dimensions (SCD2)\
--   Business-ready data marts\
--   Data quality testing\
--   Reproducible workflows
+[See screenshot-independent review and limits](docs/UPGRADE-VALIDATION.md).
 
-------------------------------------------------------------------------
+## Understanding the quality alerts
 
-## 🎯 Purpose of This Portfolio
+The DE04 fixture intentionally generates rows with historical timestamps (December 2025). Freshness-SLA checks may fail when run later, including in 2026. **This is an expected data-quality finding, not a passed check.** The CLI still emits its JSON/HTML evidence so reviewers can inspect which controls failed. The output verifier checks the report's integrity and preserves the failing results, rather than misrepresenting them as passing.
 
-Many portfolios only show dashboards or notebooks.
+Likewise, model drift and transaction alert guardrails may identify synthetic conditions. Output-contract validation means evidence exists and has the expected structure, not that every underlying business or security threshold passed.
 
-This portfolio focuses on: \> How data moves, transforms, scales,
-breaks, and gets validated in real systems.
+## DE01 PostgreSQL + dbt (separate environment)
 
-It is designed to support roles such as: - Data Engineer\
-- Analytics Engineer\
-- Analytics-focused Data Analyst\
-- BI Engineer\
-- Modern analytics stack roles
+DE01 is deliberately excluded from credential-free `run_demo_all.sh`. It requires a local PostgreSQL container and dbt installation. For local-only experimentation, set a unique development password in `DE01_POSTGRES_PASSWORD`; no password is checked into current configuration files, and container ports bind to localhost. See [DE01 setup](projects/DE01_Retail_Orders_ELT_dbt_Postgres/README.md). Never reuse demonstration passwords or deploy these examples unchanged to public infrastructure.
 
-------------------------------------------------------------------------
+## Engineering practices shown
 
-## 👤 About Me
+Reproducible generation with fixed random seeds; incremental CDC and checkpointing; telemetry deduplication and 5-minute aggregations; schema, null, uniqueness, volume and freshness checks; SQL/dbt analytical models; data and concept-drift reports; artifact-contract validation; GitHub Actions CI and history-based secret detection.
 
-**Jamie Christian**\
-Data-focused professional building realistic, job-ready portfolios
-across:
+**Validation limitations:** Offline tests do not verify a hosted data warehouse, live streaming infrastructure, enterprise-grade security controls, or real production model performance. Check [the actual workflow results](https://github.com/JamieChristian22/data-engineering-portfolio/actions/workflows/data-pipelines.yml) before claiming a particular revision passed CI.
 
--   Data Engineering\
--   Data Analytics\
--   Financial Analytics\
--   Product Analytics\
--   Cloud Architecture
+## About
 
-🔗 LinkedIn: https://www.linkedin.com/in/jamiechristian2\
-🔗 GitHub: https://github.com/JamieChristian22
+Portfolio maintained by Jamie Christian II. [LinkedIn](https://www.linkedin.com/in/jamiechristian2/) · [GitHub](https://github.com/JamieChristian22)
 
-------------------------------------------------------------------------
-
-## ⭐ For Recruiters & Hiring Managers
-
-If you're reviewing this repository:
-
--   Browse the `/projects` folder\
--   Review the code and structure\
--   Explore project READMEs\
--   Feel free to connect via LinkedIn
-
-This portfolio is actively maintained and expanded.
-
-------------------------------------------------------------------------
-
-## 💖 Support This Project
-
-If the Python, SQL, dbt, data modeling, and data pipeline examples in this portfolio have been useful, you can [support independent development through GitHub Sponsors](https://github.com/sponsors/JamieChristian22).
-
-[![Become a GitHub Sponsor](https://img.shields.io/badge/Become%20a-GitHub%20Sponsor-EA4AAA?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/JamieChristian22)
-
-Sponsorship is completely optional and helps sustain educational datasets, documentation, testing, maintenance, and future improvements. You can also support this work by starring the repository, sharing it, or submitting reproducible issues and contributions. Sponsorship does not guarantee feature implementation or changes to technical findings.
-
+If these reproducible portfolio examples are useful, [GitHub Sponsors](https://github.com/sponsors/JamieChristian22) offers optional support for further development. Sponsorship does not affect technical findings or guarantee changes.
