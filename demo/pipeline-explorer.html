@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Offline data engineering pipeline explorer with source-backed validation reports">
+<title>Data Engineering | Pipeline Explorer</title>
+<style>
+:root{color-scheme:light;font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif;background:#eff4f8;color:#132942}
+*{box-sizing:border-box}body{margin:0}a{color:#145f91}
+header{background:linear-gradient(125deg,#0a233e,#114d68);color:#fff;padding:3.2rem max(1.2rem,calc((100vw - 1100px)/2))}
+header h1{font-size:clamp(2rem,4.4vw,3.1rem);margin:.4rem 0 .65rem;letter-spacing:-.03em}
+header p{color:#dae8f3;max-width:770px;line-height:1.6}
+.eyebrow{color:#81e6c3;font-weight:700;letter-spacing:.09em;font-size:.8rem;text-transform:uppercase}
+main{max-width:1140px;padding:1.3rem 1.2rem 3rem;margin:auto}
+.note{padding:1rem 1.2rem;border-left:4px solid #007da4;background:#fff;line-height:1.55;border-radius:5px;margin:1rem 0}
+.toolbar{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:.85rem;margin:1.4rem 0}
+label{font-weight:700;font-size:.88rem;display:block;margin-bottom:.4rem}
+input,select{font:inherit;color:#17314a;width:100%;padding:.7rem;border:1px solid #8eabc1;border-radius:8px;background:white}
+:focus-visible{outline:3px solid #edab36;outline-offset:3px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:1rem}
+.card{background:white;border:1px solid #d3e0e9;border-radius:14px;padding:1.15rem;box-shadow:0 2px 14px rgba(11,43,73,.04)}
+.card h2{font-size:1.05rem;margin:.65rem 0 .35rem}.card p{font-size:.91rem;line-height:1.5;color:#4e667b;margin:.3rem 0 .7rem}
+.code{font-size:.77rem;font-weight:700;letter-spacing:.06em;color:#235e83}
+.tag{border-radius:99px;display:inline-block;background:#e9f0f6;color:#345269;font-size:.76rem;padding:.25rem .5rem;font-weight:700}
+.tag.valid{background:#dbf4e9;color:#075939}.tag.error{background:#fbe5e2;color:#952a26}
+.card .details{border-top:1px solid #e5edf2;margin-top:.75rem;padding-top:.75rem;font-size:.84rem;line-height:1.5;overflow-wrap:anywhere}
+.empty{padding:2rem;background:white;text-align:center;border:1px solid #d4e0e9;border-radius:12px}
+footer{margin-top:2rem;color:#547087;font-size:.85rem;line-height:1.6}
+@media(max-width:690px){.toolbar{grid-template-columns:1fr}.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+<div class="eyebrow">Data Engineering Portfolio / Offline Lab</div>
+<h1>Pipeline Explorer</h1>
+<p>Inspect six reproducible offline data/AI pipelines, and load a JSON validation report from your own run. No remote requests, credentials, or cloud deployment. All sample data is synthetic.</p>
+</header>
+<main>
+<section class="note" aria-label="Instructions">
+<strong>Explore real run evidence:</strong> Run <code>bash run_demo_all.sh</code>, then <code>python scripts/verify_outputs.py</code> from the repository root. Select the generated <code>demo/latest-run.json</code> below. Until you load that file, no execution status is claimed.
+</section>
+<div class="toolbar" role="group" aria-label="Pipeline controls">
+<div><label for="reportFile">Load a local pipeline validation report</label><input type="file" id="reportFile" accept=".json,application/json"></div>
+<div><label for="category">Pipeline category</label><select id="category"><option value="all">All categories</option><option value="data">Data engineering</option><option value="ai">AI pipelines</option></select></div>
+<div><label for="status">Execution result</label><select id="status"><option value="all">Any status</option><option value="VALIDATED">Validated</option><option value="ERROR">Error</option><option value="PENDING">Not loaded</option></select></div>
+</div>
+<p role="status" aria-live="polite" id="feedback">No local run loaded. Showing portfolio structure only.</p>
+<section class="grid" id="cards" aria-label="Pipeline list"></section>
+<footer>Validation is based on generated local JSON artifacts; a validated output contract does not mean all data-quality controls passed. DE04 intentionally contains historic data that can violate freshness SLAs. DE01 requires a local PostgreSQL/dbt setup and is not included in the credential-free run.</footer>
+</main>
+<script>
+"use strict";
+const catalog=[
+  {code:"DE01",category:"data",name:"Retail Orders ELT",info:"Postgres / dbt models, marts and SCD2. Separate local database required.",external:true},
+  {code:"DE02",category:"data",name:"IoT Micro-Batch Pipeline",info:"Simulated device events, DuckDB transforms and Parquet rollups."},
+  {code:"DE03",category:"data",name:"CDC Replication",info:"SQLite change log replicated into a local DuckDB warehouse."},
+  {code:"DE04",category:"data",name:"Data Quality & Observability",info:"Null, uniqueness, volume, anomaly and intentionally stale freshness checks."},
+  {code:"AI01",category:"ai",name:"Document Vector Search",info:"Synthetic text ingestion, vector indexing and local search results."},
+  {code:"AI02",category:"ai",name:"Churn Feature Pipeline",info:"Behavioral features, model training, scoring and distribution drift."},
+  {code:"AI03",category:"ai",name:"Transaction Anomaly Monitoring",info:"Synthetic transactions, anomaly scoring and alert guardrails."}
+];
+let results=new Map();
+const cards=document.getElementById("cards");
+const statusEl=document.getElementById("status");
+const categoryEl=document.getElementById("category");
+const feedback=document.getElementById("feedback");
+function element(tag,text,cls){
+  const e=document.createElement(tag);if(text!==undefined)e.textContent=String(text);
+  if(cls)e.className=cls;return e;
+}
+function render(){
+ cards.replaceChildren();
+ let count=0;
+ for(const item of catalog){
+  const run=results.get(item.code);
+  const state=run?.status??"PENDING";
+  if(categoryEl.value!=="all"&&categoryEl.value!==item.category)continue;
+  if(statusEl.value!=="all"&&statusEl.value!==state)continue;
+  count++;
+  const card=element("article",undefined,"card");
+  card.appendChild(element("span",item.code,"code"));
+  card.appendChild(element("h2",item.name));
+  card.appendChild(element("p",item.info));
+  card.appendChild(element("span",item.external?"Separate setup":state==="VALIDATED"?"Output contract validated":state==="ERROR"?"Output error":"Not run / no evidence loaded","tag"+(state==="VALIDATED"?" valid":state==="ERROR"?" error":"")));
+  const details=element("div",undefined,"details");
+  if(run){
+    if(run.error)details.appendChild(element("div","Issue: "+run.error));
+    for(const key of ["events","rollups","cdc_events_applied","quality_checks_passed","quality_checks_total","quality_overall_pass","results_returned","features_examined","drift_flags","alerts"]){
+      if(Object.prototype.hasOwnProperty.call(run,key))
+        details.appendChild(element("div",key.replaceAll("_"," ")+": "+run[key]));
+    }
+    if(Array.isArray(run.violations))details.appendChild(element("div","Guardrail violations: "+(run.violations.join(", ")||"none reported")));
+    if(run.note)details.appendChild(element("div",run.note));
+  }else details.textContent=item.external?"Requires a separate PostgreSQL and dbt environment.":"No verified run data loaded.";
+  card.appendChild(details);cards.appendChild(card);
+ }
+ if(!count)cards.appendChild(element("p","No pipelines match these filters.","empty"));
+}
+document.getElementById("reportFile").addEventListener("change",async e=>{
+ const file=e.target.files?.[0];if(!file)return;
+ try {
+  if(file.size>1024*1024)throw Error("File is larger than the 1 MB limit.");
+  const data=JSON.parse(await file.text());
+  if(data.schema_version!==1||!Array.isArray(data.projects)||typeof data.all_output_contracts_valid!=="boolean")
+    throw Error("Expected a report created by scripts/verify_outputs.py.");
+  const codes=new Set(catalog.filter(x=>!x.external).map(x=>x.code));
+  if(data.projects.length!==codes.size||data.projects.some(item=>!codes.has(item.project)||!["VALIDATED","ERROR"].includes(item.status)))
+    throw Error("The report has invalid or missing project entries.");
+  const next=new Map(data.projects.map(item=>[item.project,item]));
+  if(next.size!==codes.size)throw Error("Duplicate pipeline codes in report.");
+  results=next;
+  feedback.textContent="Loaded "+data.projects.length+" pipeline results from local JSON ("+
+     data.projects.filter(x=>x.status==="VALIDATED").length+" output contracts validated).";
+  render();
+ }catch(error){feedback.textContent="Could not load report: "+error.message;}
+});
+categoryEl.addEventListener("change",render);statusEl.addEventListener("change",render);
+render();
+</script>
+</body>
+</html>
