@@ -70,9 +70,13 @@ def main() -> None:
         - 0.02 * (agg["plan"] == "enterprise").astype(float)
     ).clip(0.02, 0.55)
 
-    churn = (rng2.random(len(risk)) < risk).astype(int)
-    churn_df = pd.DataFrame({"user_id": agg.index.values, "churn_30d": churn})
+    # Use NumPy arrays here: a pandas Series retains the named user_id index,
+    # which makes a later merge ambiguous when user_id is also a column.
+    churn = (rng2.random(len(risk)) < risk.to_numpy()).astype(int)
+    churn_df = pd.DataFrame({"user_id": agg.index.to_numpy(), "churn_30d": churn})
     df = df.merge(churn_df, on="user_id", how="left")
+    if df["churn_30d"].isna().any():
+        raise ValueError("Missing churn label for generated user events")
 
     df.to_csv(raw_path, index=False)
     print(f"Wrote raw usage data: {raw_path.resolve()} ({len(df):,} rows)")
