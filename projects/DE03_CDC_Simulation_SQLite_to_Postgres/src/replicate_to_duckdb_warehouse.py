@@ -53,7 +53,9 @@ def main() -> None:
         (ckpt["last_cdc_id"],)
     ).fetchall()
 
-    dconn = duckdb.connect(cfg["duckdb_path"])
+    warehouse_path = Path(cfg["duckdb_path"])
+    ensure_dir(warehouse_path.parent)
+    dconn = duckdb.connect(str(warehouse_path))
     for ddl in DDL:
         dconn.execute(ddl)
 

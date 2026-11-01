@@ -1,0 +1,27 @@
+# Local credentials and runtime state
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.log
+
+# Generated data, model artifacts, and run reports (never commit private datasets)
+projects/*/data/
+projects/*/outputs/
+projects/*/artifacts/
+projects/*/index/
+projects/*/source/
+projects/*/warehouse/
+projects/*/state/
+demo/latest-run.json
+*.tfstate
+*.tfstate.*
+*.tfplan
+.terraform/
+*.tfvars
+!*.tfvars.example
