@@ -20,12 +20,17 @@ A retail company sells across **web / mobile / partner** channels. The analytics
 - SQL (analytics queries)
 - Docker Compose (optional, for local Postgres)
 
-## Quickstart
-1) Start Postgres (optional)
+## Quickstart (local-only PostgreSQL)
+Start in the DE01 project directory. Choose a unique development-only password and **do not commit it**. These containers bind to `127.0.0.1`, not every network interface.
+
 ```bash
+export DE01_POSTGRES_PASSWORD='replace-with-a-unique-local-password'
 cd docker
 docker compose up -d
+cd ..
 ```
+
+Docker and dbt are **optional** for the rest of the portfolio but required for this project. Do not expose the local database or Adminer to the public internet. The same environment variable is consumed by the Python loader, KPI reporting, and dbt profile.
 
 2) Create & load raw data
 ```bash
@@ -52,7 +57,9 @@ python src/run_kpis.py
 - `outputs/top_categories_monthly.csv`
 
 ## Notes
-- All credentials are local defaults in `config/config.json` and the docker compose.
+- No database password is stored in the current committed config. Supply `DE01_POSTGRES_PASSWORD` through the environment for local development. Legacy example values may remain in Git history; do not reuse them as real credentials.
+- Containers expose PostgreSQL and Adminer only on the local loopback interface.
+- To run dbt from `dbt_retail/`, specify the local profile using `dbt run --profiles-dir .` and `dbt test --profiles-dir .`. Treat production secrets and network configuration as separate concerns.
 
 
 ---
