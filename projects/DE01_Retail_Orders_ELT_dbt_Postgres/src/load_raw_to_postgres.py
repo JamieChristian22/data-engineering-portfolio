@@ -1,14 +1,18 @@
 from __future__ import annotations
 import json
+import os
 from pathlib import Path
 import pandas as pd
 import sqlalchemy as sa
 
 def _engine(pg: dict) -> sa.Engine:
+    password = os.environ.get("DE01_POSTGRES_PASSWORD")
+    if not password:
+        raise RuntimeError("Set DE01_POSTGRES_PASSWORD before connecting to local Postgres")
     url = sa.URL.create(
         "postgresql+psycopg2",
         username=pg["user"],
-        password=pg["password"],
+        password=password,
         host=pg["host"],
         port=pg["port"],
         database=pg["database"],
