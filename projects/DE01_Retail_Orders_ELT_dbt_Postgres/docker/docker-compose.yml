@@ -4,15 +4,15 @@ services:
     environment:
       POSTGRES_DB: retail_dw
       POSTGRES_USER: retail
-      POSTGRES_PASSWORD: retail
+      POSTGRES_PASSWORD: ${DE01_POSTGRES_PASSWORD:?Set DE01_POSTGRES_PASSWORD before starting containers}
     ports:
-      - "5432:5432"
+      - "127.0.0.1:5432:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
   adminer:
     image: adminer:4
     ports:
-      - "8080:8080"
+      - "127.0.0.1:8080:8080"
     depends_on:
       - postgres
 
