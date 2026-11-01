@@ -5,7 +5,7 @@ dbt_retail:
       type: postgres
       host: localhost
       user: retail
-      password: retail
+      password: "{{ env_var('DE01_POSTGRES_PASSWORD') }}"
       port: 5432
       dbname: retail_dw
       schema: analytics
