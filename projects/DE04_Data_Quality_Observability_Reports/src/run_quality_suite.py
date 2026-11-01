@@ -1,5 +1,6 @@
 from __future__ import annotations
 import json, math
+from html import escape
 from pathlib import Path
 from datetime import datetime, timezone
 import pandas as pd
@@ -13,7 +14,7 @@ def html_report(report: dict) -> str:
     checks_html = ""
     for c in report["checks"]:
         status = "✅ PASS" if c["pass"] else "❌ FAIL"
-        checks_html += f"<tr><td>{c['name']}</td><td>{status}</td><td><pre>{json.dumps(c['details'], indent=2)}</pre></td></tr>"
+        checks_html += f"<tr><td>{escape(str(c['name']))}</td><td>{status}</td><td><pre>{escape(json.dumps(c['details'], indent=2))}</pre></td></tr>"
     return f"""<!doctype html>
 <html>
 <head>
@@ -30,8 +31,8 @@ def html_report(report: dict) -> str:
 </head>
 <body>
   <h1>Data Quality Report</h1>
-  <p><b>Run at:</b> {report['run_at']}</p>
-  <p><b>Dataset:</b> {report['dataset']}</p>
+  <p><b>Run at:</b> {escape(str(report['run_at']))}</p>
+  <p><b>Dataset:</b> {escape(str(report['dataset']))}</p>
   <h2>Summary</h2>
   <ul>
     <li><b>Rows:</b> {report['metrics']['rows']}</li>
