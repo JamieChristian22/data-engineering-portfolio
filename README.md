@@ -179,3 +179,6 @@ If the Python, SQL, dbt, data modeling, and data pipeline examples in this portf
 
 Sponsorship is completely optional and helps sustain educational datasets, documentation, testing, maintenance, and future improvements. You can also support this work by starring the repository, sharing it, or submitting reproducible issues and contributions. Sponsorship does not guarantee feature implementation or changes to technical findings.
 
+## License and third-party materials
+
+See [LICENSE](LICENSE) for the repository license. Third-party code, datasets, images, and other assets retain their respective terms.
