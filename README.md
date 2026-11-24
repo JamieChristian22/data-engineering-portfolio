@@ -1,7 +1,7 @@
 # 🚀 Data Engineering Portfolio
 
-![Python](https://img.shields.io/badge/Python-Expert-blue)
-![SQL](https://img.shields.io/badge/SQL-Advanced-informational)
+![Python](https://img.shields.io/badge/Python-Pipelines-blue)
+![SQL](https://img.shields.io/badge/SQL-Data_Modeling-informational)
 ![dbt](https://img.shields.io/badge/dbt-Analytics-orange)
 ![Git](https://img.shields.io/badge/Git-Version_Control-black) ![GitHub
 Actions](https://img.shields.io/badge/CI-GitHub_Actions-success)
