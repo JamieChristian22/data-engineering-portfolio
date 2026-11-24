@@ -30,3 +30,13 @@ dist/
 
 # Local machine artifacts
 .DS_Store
+
+# Local credentials and infrastructure artifacts (prevent accidental new tracking)
+*.tfvars.json
+*.tfplan
+*.tfplan.*
+*.kubeconfig
+.aws/credentials
+.kube/config
+terraform.rc
+.terraformrc
