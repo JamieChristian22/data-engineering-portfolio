@@ -1,5 +1,12 @@
 # 🚀 Data Engineering Portfolio
 
+Data engineering portfolio covering Python pipelines, SQL transformations, dbt modeling, incremental loading and data quality tests. Review runnable demos and individual project limitations before interpreting results.
+
+**Explore related projects:** [data analyst portfolio](https://github.com/JamieChristian22/data-analyst-portfolio) · [business intelligence portfolio](https://github.com/JamieChristian22/business-intelligence-portfolio) · [professional data operations portfolio](https://github.com/JamieChristian22/professional-data-operations-portfolio-)
+
+[Recruiter quick-start guide](https://github.com/JamieChristian22/JamieChristian22/blob/main/RECRUITER_START_HERE.md) · [Portfolio website](https://jamiechristian22.github.io/)
+
+
 ![Python](https://img.shields.io/badge/Python-Pipelines-blue)
 ![SQL](https://img.shields.io/badge/SQL-Data_Modeling-informational)
 ![dbt](https://img.shields.io/badge/dbt-Analytics-orange)
